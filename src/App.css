@@ -1,24 +1,54 @@
-*{
+* {
   box-sizing: border-box;
 }
 
 .WebsiteWideContainer {
   background-color: red;
   position: fixed;
-  width:100%;
+  width: 100%;
   height: 100%;
-  
 }
 .MainContainer {
   text-align: center;
 }
-
 .FooterContainer {
- background-color: yellow;
-
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: aqua;
+  color: white;
+  text-align: center;
 }
 .HeaderContainer {
   background-color: aqua;
-
+  display: flex;
+  justify-content: space-around;
+  height: 2rem;
+  padding-top: 5px;
+  font-size: 1.3rem;
 }
 
+.HeaderContainer a {
+  margin: 5rem;
+}
+
+.HomeScreenContainer {
+  background: url("Images/landscape-outdoor-horizon-cloud-sky-sunrise-106633-pxhere.com.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px;
+  display: flex;
+  flex-flow: column;
+  color: white;
+}
+
+
+
+.CTAContainer img {
+  height: 4rem;
+  width: 4rem;
+}
