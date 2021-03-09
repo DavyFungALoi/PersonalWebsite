@@ -27,3 +27,15 @@
   top: 27px;
   color: white;
 }
+
+.Header__IconContainer{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Header img {
+  width: 41px;
+  height: 41px
+}
+

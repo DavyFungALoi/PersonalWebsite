@@ -9,9 +9,7 @@
 
  
 }
-.MainContainer {
-  text-align: center;
-}
+
 .FooterContainer {
   position: fixed;
   left: 0;
@@ -21,47 +19,6 @@
   color: white;
   text-align: center;
 }
-.HeaderContainer {
-  display: flex;
-  justify-content: flex-end;
-  height: 2rem;
-padding-top: 30px;
- 
-}
-
-.HeaderContainer a {
-  text-decoration: none;
-  
-}
-
-.Header a {
-  font-family: Overpass;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 27.58px;
-  left: 1082px;
-  width: 74px;
-  height: 28px;
-  color: black;
-  margin: 42px;
-}
-.Header__Contact {
-  background: #62F8D4;
-  width: 114px;
-  height: 34px;
-  top: 27px;
-  color: white;
-
-}
-
-
-
-
-.HomeScreenContainer {
-
-}
-
-
 
 .CTAContainer img {
   height: 4rem;
