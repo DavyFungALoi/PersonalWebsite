@@ -8,13 +8,8 @@ const HomeScreen = () => {
       <h2>I'm Davy, a Junior Fullstack Developer</h2>
       <h3>I love solving problems and creating applications</h3>
       <div className="CTAContainer">
-        <a>
-          <img src={Github} alt="Github"></img>
-        </a>
-        <a>
-          {" "}
-          <img src={Linkedin} alt="Linkedin"></img>
-        </a>
+        <img src={Github} alt="Github"></img>
+        <img src={Linkedin} alt="Linkedin"></img>
       </div>
       <h3>Tech stack</h3>
       <div className="TechStackContainer"></div>
