@@ -1,8 +1,8 @@
 .HeaderContainer {
   display: flex;
   justify-content: flex-end;
-  height: 2rem;
-  padding-top: 30px;
+  margin-right: 93px;
+  margin-top: 15px;
 }
 
 .HeaderContainer a {
@@ -13,33 +13,38 @@
   display: flex;
 }
 
-.Header a {
+.Header ul a {
   font-family: Overpass;
   font-weight: 400;
   font-size: 18px;
   line-height: 27.58px;
-  left: 1082px;
-  width: 74px;
-  height: 28px;
   color: black;
   margin: 42px;
 }
-.Header__Contact {
-  background: #62f8d4;
-  width: 114px;
-  height: 34px;
-  top: 27px;
-  color: white;
+
+.Header a:hover {
+  border-bottom: 2px solid #62f8d4;
 }
 
-.Header__IconContainer{
+
+.Header ul a.Header__Contact {
+  background: #62f8d4;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  margin: auto;
+  padding: 3px 11px;
+}
+
+
+.Header__IconContainer {
   display: flex;
   flex-direction: column;
-  
+  margin-left: 42px;
 }
 
 .Header img {
   width: 41px;
-  height: 41px
+  height: 41px;
+  margin: 12px;
 }
-
