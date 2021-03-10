@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+.Header {
+  display: flex;
+}
+
 .Header a {
   font-family: Overpass;
   font-weight: 400;
@@ -31,7 +35,7 @@
 .Header__IconContainer{
   display: flex;
   flex-direction: column;
-
+  
 }
 
 .Header img {

@@ -14,9 +14,9 @@ function App() {
   return (
     <Router>
  <div className="WebsiteWideContainer">
-        <div className="HeaderContainer">
+       
           <Header></Header>
-        </div>
+        
         <div className="MainContainer">
           <Route path="/" component={HomeScreen} exact />
           <Route path="/blog" component={BlogListScreen} exact />
