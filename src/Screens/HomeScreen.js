@@ -2,7 +2,7 @@ import React from "react";
 import GitHubIcon from "../Images/GitHubIcon.png";
 import LinkedinIcon from "../Images/LinkedinIcon.png";
 import MouseWheelIconDownwards from "../Images/MouseWheelIconDownwards.png";
-import { BiMouse } from "react-icons/bi";
+import Expertise from "../Images/Expertise.png";
 
 const HomeScreen = () => {
   return (
@@ -16,8 +16,12 @@ const HomeScreen = () => {
           bit more content here.
         </div>
         <div className="Introduction__Container__Button__Container">
-        <a href="portfolio"><button>My Projects ></button></a>
-        <a href="contact"><button>Contact Me ></button></a>
+          <a href="portfolio">
+            <button>My Projects ></button>
+          </a>
+          <a href="contact">
+            <button>Contact Me ></button>
+          </a>
         </div>
       </div>
       <div className="Social__Links__Container">
@@ -31,6 +35,36 @@ const HomeScreen = () => {
       <div className="Scroll__Downwards__Container">
         <img src={MouseWheelIconDownwards} alt="MouseWheelIconDownwards"></img>
         <div>Scroll for more about me</div>
+      </div>
+      <div className="Expertise__Container">
+        <div className="Expertise__Container__Area__Container">
+          <div>
+            <img src={Expertise} alt="Expertise"></img>
+            <h2>HTML & CSS</h2>
+            <h3>
+              Short sum here of what you’re focussed on. Small, short thingy
+              here yes.
+            </h3>
+          </div>
+          <div>
+            <img src={Expertise} alt="Expertise"></img>
+            <h2>Javascript</h2>
+            <h3>
+              Short sum here of what you’re focussed on. Small, short thingy
+              here yes.
+            </h3>
+          </div>
+          <div>
+            <img src={Expertise} alt="Expertise"></img>
+            <h2>Growth Mentality</h2>
+            <h3>
+              Short sum here of what you’re focussed on. Small, short thingy
+              here yes.
+            </h3>
+          </div>
+        </div>
+        <div>My Languages</div>
+        <div>My Tools</div>
       </div>
     </>
   );
