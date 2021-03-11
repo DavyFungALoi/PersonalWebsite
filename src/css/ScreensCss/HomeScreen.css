@@ -3,15 +3,14 @@
   margin-top: 146px;
   border-left: 7px solid #62f8d4;
   padding-left: 24px;
-  width: 549px
-  
+  width: 549px;
 }
 
 .Introduction__Container h1 {
   font-family: Chakra Petch;
   font-weight: 700;
   font-size: 4rem;
-  margin:0;
+  margin: 0;
 }
 .Introduction__Container h2 {
   font-family: Chakra Petch;
@@ -39,6 +38,11 @@
   border: none;
 }
 
+.Introduction__Container__Button__Container button:hover {
+  cursor: pointer;
+}
+
+
 .Social__Links__Container {
   display: flex;
   flex-direction: column;
@@ -53,4 +57,20 @@
   width: 56px;
   height: 56px;
   margin: 12px;
+}
+
+.Scroll__Downwards__Container {
+  margin: auto;
+  
+  font-family: Overpass;
+  font-size: 1.125rem;
+  color:#888888;
+  text-align: center;
+  margin-top: 275px;
+}
+
+.Scroll__Downwards__Container img {
+  width: 102px;
+  height: 102px;
+  opacity: 50%;
 }
