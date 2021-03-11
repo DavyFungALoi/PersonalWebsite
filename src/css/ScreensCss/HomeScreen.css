@@ -1,0 +1,56 @@
+.Introduction__Container {
+  margin-left: 309px;
+  margin-top: 146px;
+  border-left: 7px solid #62f8d4;
+  padding-left: 24px;
+  width: 549px
+  
+}
+
+.Introduction__Container h1 {
+  font-family: Chakra Petch;
+  font-weight: 700;
+  font-size: 4rem;
+  margin:0;
+}
+.Introduction__Container h2 {
+  font-family: Chakra Petch;
+  font-weight: 600;
+  font-size: 2.25rem;
+  margin-top: 0px;
+}
+.Introduction__Container__Intro {
+  font-family: Overpass;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 24px;
+}
+
+.Introduction__Container__Button__Container button {
+  background-color: #62f8d4;
+  color: white;
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: Overpass;
+  width: 173px;
+  height: 52px;
+  margin-right: 36px;
+  margin-top: 22px;
+  border: none;
+}
+
+.Social__Links__Container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 221px;
+  margin-right: 24px;
+  margin-top: -221px;
+  width: 56px;
+  height: 56px;
+}
+
+.Social__Links__Container img {
+  width: 56px;
+  height: 56px;
+  margin: 12px;
+}
