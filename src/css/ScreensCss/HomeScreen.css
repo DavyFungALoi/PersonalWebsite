@@ -1,3 +1,6 @@
+* {
+  font-family: Overpass;
+}
 .Introduction__Container {
   margin-left: 91px;
   margin-top: 67px;
@@ -76,10 +79,31 @@
 
 .Expertise__Container {
   margin-top: 257px;
+  text-align: center;
 }
 
 .Expertise__Container__Area__Container {
   display: flex;
- 
+
   text-align: center;
+}
+
+.Projects_Container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.Project__Container__Header {
+  text-align: center;
+}
+
+.Projects_Social_Icon {
+  height: 56px;
+  width: 56px;
+}
+
+.Profile__Pic {
+  width: 449px;
+  height: 546px;
 }

@@ -3,10 +3,12 @@ import GitHubIcon from "../Images/GitHubIcon.png";
 import LinkedinIcon from "../Images/LinkedinIcon.png";
 import MouseWheelIconDownwards from "../Images/MouseWheelIconDownwards.png";
 import Expertise from "../Images/Expertise.png";
+import ProfilePic from "../Images/ProfilePicture.jpg";
 import Project from "../Components/Project";
+import TechStack from "../Components/TechStack";
 
 const HomeScreen = () => {
-  const Projects = [
+    const Projects = [
     {
       name: "KeyboardShop",
       description: "Hello",
@@ -35,6 +37,7 @@ const HomeScreen = () => {
       id: 3,
     },
   ];
+
 
   return (
     <>
@@ -68,6 +71,7 @@ const HomeScreen = () => {
         <div>Scroll for more about me</div>
       </div>
       <div className="Expertise__Container">
+        <h2>My Skills</h2>
         <div className="Expertise__Container__Area__Container">
           <div>
             <img src={Expertise} alt="Expertise"></img>
@@ -94,12 +98,14 @@ const HomeScreen = () => {
             </h3>
           </div>
         </div>
-        <div>My Languages</div>
-        <div>My Tools</div>
+        <div>Tech Stack
+          <TechStack></TechStack>
+        </div>
+
       </div>
       <div className="ProjectOverview__Container">
-        <div className="Project__Container__Header"></div>
-        <div>
+        <h2 className="Project__Container__Header">My Projects</h2>
+        <div className="Projects_Container">
           {Projects.map((project) => (
             <Project
               name={project.name}
@@ -113,7 +119,11 @@ const HomeScreen = () => {
         </div>
         <a href="https://github.com/DavyFungALoi">
           See all Projects on Github
-          <img src={GitHubIcon} alt="GithubIcon"></img>
+          <img
+            src={GitHubIcon}
+            className="Projects_Social_Icon"
+            alt="GithubIcon"
+          ></img>
         </a>
       </div>
       <div className="AboutMe__Container">
@@ -133,7 +143,7 @@ const HomeScreen = () => {
           ea voluptate velit esse quam nihil molestiae consequatur, vel illum
           qui dolorem eum fugiat quo voluptas nulla pariatur?
         </div>
-        <img src={Expertise} alt="Profile Pic"></img>
+        <img className="Profile__Pic" src={ProfilePic} alt="Profile Pic"></img>
       </div>
       <div className="Quote__Container"></div>
       <div className="Timeline__Container">
@@ -161,7 +171,7 @@ const HomeScreen = () => {
 export default HomeScreen;
 
 /*
-
+<img className="Profile__Pic" src={ProfilePic} alt="Profile Pic"></img>
  {Projects.map((project) => (
           
           ))}

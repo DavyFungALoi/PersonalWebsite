@@ -1,0 +1,11 @@
+.TechStack__Container {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+
+}
+
+.TechStack__Container__Stack {
+    margin: 40px;;
+    text-align: center;
+}
