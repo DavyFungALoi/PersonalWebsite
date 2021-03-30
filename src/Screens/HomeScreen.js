@@ -23,14 +23,14 @@ const HomeScreen = () => {
             <button>Contact Me ></button>
           </a>
         </div>
-      </div>
-      <div className="Social__Links__Container">
-        <a href="https://www.linkedin.com/in/davyfungaloi/">
-          <img src={LinkedinIcon} alt="LinkedinIcon"></img>
-        </a>
-        <a href="https://github.com/DavyFungALoi">
-          <img src={GitHubIcon} alt="GithubIcon"></img>
-        </a>
+        <div className="Social__Links__Container">
+          <a href="https://www.linkedin.com/in/davyfungaloi/">
+            <img src={LinkedinIcon} alt="LinkedinIcon"></img>
+          </a>
+          <a href="https://github.com/DavyFungALoi">
+            <img src={GitHubIcon} alt="GithubIcon"></img>
+          </a>
+        </div>
       </div>
       <div className="Scroll__Downwards__Container">
         <img src={MouseWheelIconDownwards} alt="MouseWheelIconDownwards"></img>
@@ -65,6 +65,9 @@ const HomeScreen = () => {
         </div>
         <div>My Languages</div>
         <div>My Tools</div>
+      </div>
+      <div className="Project_Container">
+        <div className="Project_Container_Header"></div>
       </div>
     </>
   );

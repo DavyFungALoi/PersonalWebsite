@@ -1,6 +1,6 @@
 .Introduction__Container {
-  margin-left: 309px;
-  margin-top: 146px;
+  margin-left: 91px;
+  margin-top: 67px;
   border-left: 7px solid #62f8d4;
   padding-left: 24px;
   width: 549px;
@@ -42,15 +42,15 @@
   cursor: pointer;
 }
 
-
 .Social__Links__Container {
   display: flex;
   flex-direction: column;
-  margin-left: 221px;
   margin-right: 24px;
-  margin-top: -221px;
   width: 56px;
   height: 56px;
+  position: absolute;
+  margin-top: -150px;
+  margin-left: -115px;
 }
 
 .Social__Links__Container img {
@@ -61,16 +61,25 @@
 
 .Scroll__Downwards__Container {
   margin: auto;
-  
   font-family: Overpass;
   font-size: 1.125rem;
-  color:#888888;
+  color: #888888;
   text-align: center;
-  margin-top: 275px;
+  margin-top: 189px;
 }
 
 .Scroll__Downwards__Container img {
   width: 102px;
   height: 102px;
   opacity: 50%;
+}
+
+.Expertise__Container {
+  margin-top: 257px;
+}
+
+.Expertise__Container__Area__Container {
+  display: flex;
+ 
+  text-align: center;
 }
