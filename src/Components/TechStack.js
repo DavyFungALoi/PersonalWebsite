@@ -1,6 +1,10 @@
 import React from "react";
 import ReactIcon from "../Images/TechStack/ReactIcon.png";
-
+import ExpressIcon from "../Images/TechStack/Express-Icon.png";
+import MongoDBIcon from "../Images/TechStack/MongoDB-Icon.jpg";
+import NodeJSIcon from "../Images/TechStack/NodeJS-Icon.webp";
+import GoogleOptimizeIcon from "../Images/TechStack/Google-Optimize-Icon.png";
+import GoogleTagManagerIcon from "../Images/TechStack/Google-Tag-Manager-Icon.svg";
 const TechStack = () => {
   const TechStackArray = [
     {
@@ -10,40 +14,34 @@ const TechStack = () => {
       id: 1,
     },
     {
-      name: "React",
-      icon: ReactIcon,
-      alt: "ReactIcon",
+      name: "Express",
+      icon: ExpressIcon,
+      alt: "Express Icon",
       id: 2,
     },
     {
-      name: "React",
-      icon: ReactIcon,
-      alt: "ReactIcon",
+      name: "MongoDB",
+      icon: MongoDBIcon,
+      alt: "MongoDB Icon",
       id: 3,
     },
     {
-      name: "React",
-      icon: ReactIcon,
-      alt: "ReactIcon",
+      name: "NodeJS",
+      icon: NodeJSIcon,
+      alt: "Node JS Icon",
       id: 4,
     },
     {
-      name: "React",
-      icon: ReactIcon,
-      alt: "ReactIcon",
+      name: "Google Optimize",
+      icon: GoogleOptimizeIcon,
+      alt: "Google Optimize Icon",
       id: 5,
     },
     {
-      name: "React",
-      icon: ReactIcon,
-      alt: "ReactIcon",
+      name: "Google Tag Manager",
+      icon: GoogleTagManagerIcon,
+      alt: "Google Tag Manager Icon",
       id: 6,
-    },
-    {
-      name: "React",
-      icon: ReactIcon,
-      alt: "ReactIcon",
-      id: 7,
     },
   ];
   return (
