@@ -6,6 +6,7 @@ import Expertise from "../Images/Expertise.png";
 import ProfilePic from "../Images/ProfilePicture.jpg";
 import BarbershopPic from "../Images/Projects/BarberShop.png";
 import KeyboardShopPic from "../Images/Projects/KeyboardShop.png";
+import PassPortPic from "../Images/Projects/Passport.png";
 import PersonalWebsitePic from "../Images/Projects/PersonalWebsite.png";
 import Project from "../Components/Project";
 import TechStack from "../Components/TechStack";
@@ -18,7 +19,7 @@ const HomeScreen = () => {
         "A fullstack application where you can make a barber's appointment",
       stack: "Redux, React, Mongoose, Node,",
       img: BarbershopPic,
-      concepts: "MERN, encyrption, One Page Checkout, CRUD, MVC",
+      concepts: "MERN, encryption, One Page Checkout, CRUD, MVC",
       link: "https://github.com/DavyFungALoi/barbershop",
       id: 1,
     },
@@ -31,15 +32,16 @@ const HomeScreen = () => {
       link: "https://github.com/DavyFungALoi/PersonalWebsite",
       id: 2,
     },
+
     {
-      name: "KeyboardShop",
+      name: "Members Only",
       description:
-        "A fullstack CRUD application about where you can buy keyboards",
-      stack: "Redux, React, Mongoose, Node, Bootstrap",
-      img: KeyboardShopPic,
-      concepts: "MERN, encyrption, secure routing, CRUD, MVC, Paypal",
-      link: "https://github.com/DavyFungALoi/keyboardshop",
-      id: 3,
+        "An application build around logging in and member priveleges and tiers",
+      stack: "Express, Node, Mongoose, Node, EJS",
+      img: PassPortPic,
+      concepts: "encryption, data validation, CRUD, MVC, EJS",
+      link: "https://github.com/DavyFungALoi/members-only",
+      id: 4,
     },
   ];
 

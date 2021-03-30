@@ -5,6 +5,7 @@ import MongoDBIcon from "../Images/TechStack/MongoDB-Icon.jpg";
 import NodeJSIcon from "../Images/TechStack/NodeJS-Icon.webp";
 import GoogleOptimizeIcon from "../Images/TechStack/Google-Optimize-Icon.png";
 import GoogleTagManagerIcon from "../Images/TechStack/Google-Tag-Manager-Icon.svg";
+import ReduxIcon from "../Images/TechStack/Redux-Icon.png"
 const TechStack = () => {
   const TechStackArray = [
     {
@@ -32,16 +33,22 @@ const TechStack = () => {
       id: 4,
     },
     {
+      name: "Redux",
+      icon: ReduxIcon,
+      alt: "Redux Icon",
+      id: 5,
+    },
+    {
       name: "Google Optimize",
       icon: GoogleOptimizeIcon,
       alt: "Google Optimize Icon",
-      id: 5,
+      id: 6,
     },
     {
       name: "Google Tag Manager",
       icon: GoogleTagManagerIcon,
       alt: "Google Tag Manager Icon",
-      id: 6,
+      id: 7,
     },
   ];
   return (
