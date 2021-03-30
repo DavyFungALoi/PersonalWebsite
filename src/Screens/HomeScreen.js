@@ -3,6 +3,7 @@ import GitHubIcon from "../Images/GitHubIcon.png";
 import LinkedinIcon from "../Images/LinkedinIcon.png";
 import MouseWheelIconDownwards from "../Images/MouseWheelIconDownwards.png";
 import Expertise from "../Images/Expertise.png";
+import Project from "../Components/Project";
 
 const HomeScreen = () => {
   const Projects = [
@@ -99,33 +100,21 @@ const HomeScreen = () => {
       <div className="ProjectOverview__Container">
         <div className="Project__Container__Header"></div>
         <div>
-         
           {Projects.map((project) => (
-            <div>
-              <h2>{project.name}</h2>
-              <img src={project.img} alt="Expertise"></img>
-              <div>{project.description}</div>
-              <div>{project.stack}</div>
-              <div>{project.concepts}</div>
-            </div>
+            <Project
+              name={project.name}
+              description={project.description}
+              id={project.id}
+              img={project.img}
+              stack={project.stack}
+              concepts={project.concepts}
+            ></Project>
           ))}
         </div>
-
-        <div className="ProjectOverview__Container__Project">
-          Project 1<img src={Expertise} alt="Expertise"></img>
-          <div>Description</div>
-          <div>Tools Used</div>
-        </div>
-        <div className="ProjectOverview__Container__Project">
-          Project 2 <img src={Expertise} alt="Expertise"></img>
-          <div>Description</div>
-          <div>Tools Used</div>
-        </div>
-        <div className="ProjectOverview__Container__Project">
-          Project 3 <img src={Expertise} alt="Expertise"></img>
-          <div>Description</div>
-          <div>Tools Used</div>
-        </div>
+        <a href="https://github.com/DavyFungALoi">
+          See all Projects on Github
+          <img src={GitHubIcon} alt="GithubIcon"></img>
+        </a>
       </div>
       <div className="AboutMe__Container">
         <h2>More About me</h2>
