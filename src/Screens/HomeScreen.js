@@ -8,7 +8,7 @@ import Project from "../Components/Project";
 import TechStack from "../Components/TechStack";
 
 const HomeScreen = () => {
-    const Projects = [
+  const Projects = [
     {
       name: "KeyboardShop",
       description: "Hello",
@@ -37,7 +37,6 @@ const HomeScreen = () => {
       id: 3,
     },
   ];
-
 
   return (
     <>
@@ -98,10 +97,10 @@ const HomeScreen = () => {
             </h3>
           </div>
         </div>
-        <div>Tech Stack
+        <div>
+          Tech Stack
           <TechStack></TechStack>
         </div>
-
       </div>
       <div className="ProjectOverview__Container">
         <h2 className="Project__Container__Header">My Projects</h2>
@@ -126,24 +125,37 @@ const HomeScreen = () => {
           ></img>
         </a>
       </div>
-      <div className="AboutMe__Container">
+      <div className="About__Me__Container">
         <h2>More About me</h2>
-        <div>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto beatae vitae dicta
-          sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-          aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-          qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
-          dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
-          quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-          aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
-          exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
-          ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
-          ea voluptate velit esse quam nihil molestiae consequatur, vel illum
-          qui dolorem eum fugiat quo voluptas nulla pariatur?
+        <div className="About__Me__Container__Info">
+          <div className="About__Me__Container__Info__Text">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+            
+            
+            Neque porro quisquam est,
+            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+            sed quia non numquam eius modi tempora incidunt ut labore et dolore
+            magnam aliquam quaerat voluptatem. 
+            
+            
+            Ut enim ad minima veniam, quis
+            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+            aliquid ex ea commodi consequatur? Quis autem vel eum iure
+            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+            pariatur?
+          </div>
+          <img
+            className="Profile__Pic"
+            src={ProfilePic}
+            alt="Profile Pic"
+          ></img>
         </div>
-        <img className="Profile__Pic" src={ProfilePic} alt="Profile Pic"></img>
       </div>
       <div className="Quote__Container"></div>
       <div className="Timeline__Container">

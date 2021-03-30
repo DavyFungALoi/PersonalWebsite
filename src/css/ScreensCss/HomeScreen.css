@@ -103,6 +103,20 @@
   width: 56px;
 }
 
+.About__Me__Container {
+  border-left: 7px solid #62f8d4;
+  padding-left: 23px;
+}
+
+.About__Me__Container__Info {
+  display: flex;
+  margin-right: 83px;
+}
+
+.About__Me__Container__Info__Text {
+  width: 705px;
+}
+
 .Profile__Pic {
   width: 449px;
   height: 546px;

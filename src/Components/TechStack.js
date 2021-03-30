@@ -48,8 +48,8 @@ const TechStack = () => {
     <div className="TechStack__Container">
       {TechStackArray.map((stack) => (
         <div className="TechStack__Container__Stack">
-          <div className="stackName">{stack.name}</div>
-          <img className="Project_Screenshot" src={stack.icon} alt={`$`}></img>
+          <div className="TechStack__Container__Stack__Name">{stack.name}</div>
+          <img className="TechStack__Container__Stack__Image" src={stack.icon} alt={`$`}></img>
         </div>
       ))}
     </div>

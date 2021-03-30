@@ -6,4 +6,6 @@
 .Project__Card__Container {
   width: 402px;
   height: 284px;
+  background-color: F0F0F0, 100%;
+  mix-blend-mode: pass-through;
 }
