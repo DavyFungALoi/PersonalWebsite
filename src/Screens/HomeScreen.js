@@ -4,36 +4,41 @@ import LinkedinIcon from "../Images/LinkedinIcon.png";
 import MouseWheelIconDownwards from "../Images/MouseWheelIconDownwards.png";
 import Expertise from "../Images/Expertise.png";
 import ProfilePic from "../Images/ProfilePicture.jpg";
+import BarbershopPic from "../Images/Projects/BarberShop.png";
+import KeyboardShopPic from "../Images/Projects/KeyboardShop.png";
+import PersonalWebsitePic from "../Images/Projects/PersonalWebsite.png";
 import Project from "../Components/Project";
 import TechStack from "../Components/TechStack";
 
 const HomeScreen = () => {
   const Projects = [
     {
-      name: "KeyboardShop",
-      description: "Hello",
-      stack: "Redux, React, Mongoose, Node",
-      img: LinkedinIcon,
-      concepts: "MERN, encyrption, secure routing, CRUD, MVC",
-      link: "https://github.com/DavyFungALoi/keyboardshop",
+      name: "Barbershop",
+      description:
+        "A fullstack application where you can make a barber's appointment",
+      stack: "Redux, React, Mongoose, Node,",
+      img: BarbershopPic,
+      concepts: "MERN, encyrption, One Page Checkout, CRUD, MVC",
+      link: "https://github.com/DavyFungALoi/barbershop",
       id: 1,
     },
     {
-      name: "Barbershop",
-      description: "Hello",
-      stack: "Redux, React, Mongoose, Node,",
-      img: LinkedinIcon,
-      concepts: "MERN, encyrption, One Page Checkout, CRUD, MVC",
-      link: "https://github.com/DavyFungALoi/barbershop",
+      name: "Personal website",
+      description: "A personal website to showcase who I am",
+      stack: "React, HTML, CSS, Javascript",
+      img: PersonalWebsitePic,
+      concepts: "Routing, Components, Figma",
+      link: "https://github.com/DavyFungALoi/PersonalWebsite",
       id: 2,
     },
     {
-      name: "Personal website",
-      description: "The code from this website",
-      stack: "React, HTML, CSS, Javascript",
-      img: LinkedinIcon,
-      concepts: "Routing, Components, Figma",
-      link: "https://github.com/DavyFungALoi/PersonalWebsite",
+      name: "KeyboardShop",
+      description:
+        "A fullstack CRUD application about where you can buy keyboards",
+      stack: "Redux, React, Mongoose, Node, Bootstrap",
+      img: KeyboardShopPic,
+      concepts: "MERN, encyrption, secure routing, CRUD, MVC, Paypal",
+      link: "https://github.com/DavyFungALoi/keyboardshop",
       id: 3,
     },
   ];
@@ -129,26 +134,32 @@ const HomeScreen = () => {
         <h2>More About me</h2>
         <div className="About__Me__Container__Info">
           <div className="About__Me__Container__Info__Text">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt.
-            
-            
-            Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. 
-            
-            
-            Ut enim ad minima veniam, quis
-            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-            aliquid ex ea commodi consequatur? Quis autem vel eum iure
-            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-            pariatur?
+            <div className="About__Me__Container__Info__Text__Paragraph">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt.
+            </div>
+            <div className="About__Me__Container__Info__Text__Paragraph">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+              eos qui ratione voluptatem sequi nesciunt.
+            </div>
+            <div className="About__Me__Container__Info__Text__Paragraph">
+              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+              consectetur, adipisci velit, sed quia non numquam eius modi
+              tempora incidunt ut labore et dolore magnam aliquam quaerat
+              voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
+              ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+              consequatur? Quis autem vel eum iure reprehenderit qui in ea
+              voluptate velit esse quam nihil molestiae consequatur, vel illum
+              qui dolorem eum fugiat quo voluptas nulla pariatur?
+            </div>
           </div>
           <img
             className="Profile__Pic"

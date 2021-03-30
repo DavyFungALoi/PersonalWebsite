@@ -1,11 +1,15 @@
-.Project_Screenshot {
-  width: 55px;
-  height: 55px;
-}
-
 .Project__Card__Container {
   width: 402px;
-  height: 284px;
+  height: 588px;
   background-color: F0F0F0, 100%;
   mix-blend-mode: pass-through;
+  border: solid black;
+}
+
+.Project__Card__Container img {
+  width: 300px;
+  height: 300px;
+}
+.Project__Card__Container__Description {
+
 }

@@ -3,7 +3,7 @@
 }
 .Introduction__Container {
   margin-left: 91px;
-  margin-top: 67px;
+  margin-top: 215px;
   border-left: 7px solid #62f8d4;
   padding-left: 24px;
   width: 549px;
@@ -110,11 +110,15 @@
 
 .About__Me__Container__Info {
   display: flex;
-  margin-right: 83px;
 }
 
 .About__Me__Container__Info__Text {
   width: 705px;
+  margin-right: 83px;
+}
+
+.About__Me__Container__Info__Text__Paragraph {
+  margin-top: 50px;
 }
 
 .Profile__Pic {

@@ -10,9 +10,8 @@ import PortFolioListScreen from "./Screens/PortFolioListScreen";
 function App() {
   return (
     <Router>
+      <Header></Header>
       <div className="WebsiteWideContainer">
-        <Header></Header>
-
         <div className="MainContainer">
           <Route path="/" component={HomeScreen} exact />
           <Route path="/blog" component={BlogListScreen} exact />

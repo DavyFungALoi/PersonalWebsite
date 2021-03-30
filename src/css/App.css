@@ -27,4 +27,5 @@
 .MainContainer {
   margin-left: 221px;
   margin-right: 332px;
+  position: relative;
 }
