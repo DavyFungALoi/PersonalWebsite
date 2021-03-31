@@ -10,6 +10,7 @@ import PersonalWebsitePic from "../Images/Projects/PersonalWebsite.png";
 import Project from "../Components/Project";
 import TechStack from "../Components/TechStack";
 import Projects from "../data.js";
+import RandomFunFact from "../Components/RandomFunFact";
 
 const HomeScreen = () => {
   return (
@@ -143,6 +144,7 @@ const HomeScreen = () => {
           ></img>
         </div>
       </div>
+      <RandomFunFact></RandomFunFact>
       <div className="Quote__Container">
         Build, Measure, Learn. Learn from everything, priortize what is
         important to you and get it done.
