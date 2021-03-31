@@ -1,6 +1,6 @@
 .Project__Card__Container {
   width: 402px;
-  height: 588px;
+  height: 700px;
   background-color: F0F0F0, 100%;
   mix-blend-mode: pass-through;
   border: solid black;
@@ -11,6 +11,10 @@
   height: 300px;
 }
 
+.Project__Card__Container__Description {
+  padding: 15px;
+}
+
 .Project__Card__Container__Stack {
   display: flex;
   justify-content: center;
@@ -18,4 +22,19 @@
 .Project__Card__Container__Stack__Img img {
   width: 55px;
   height: 55px;
+}
+
+.Project__Card__Container__Button {
+  background: #62f8d4;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  margin: auto;
+  padding: 3px 11px;
+  border: none;
+  margin-top: 5px;
+}
+
+.Project__Card__Container__Button a:hover {
+  border-bottom: 2px solid #62f8d4;
 }

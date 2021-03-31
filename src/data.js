@@ -15,16 +15,16 @@ const Projects = [
   {
     name: "Barbershop",
     description:
-      "A fullstack application where you can make a barber's appointment",
+      "A fullstack application where you can make a barber's appointment.",
     stack: [MongoDBIcon, ExpressIcon, ReactIcon, ReduxIcon, NodeJSIcon],
     img: BarbershopPic,
-    concepts: "MERN, encryption, One Page Checkout, REST API, MVC",
+    concepts: "MERN, Redux, One Page Checkout, REST API, MVC",
     link: "https://github.com/DavyFungALoi/barbershop",
     id: 1,
   },
   {
     name: "Personal website",
-    description: "A personal website to showcase who I am",
+    description: "A personal website to showcase who I am and what I can do.",
     stack: [ReactIcon, HTMLIcon, CSSIcon, JavascriptIcon],
     img: PersonalWebsitePic,
     concepts: "Routing, Components, Figma",
@@ -35,10 +35,10 @@ const Projects = [
   {
     name: "Members Only",
     description:
-      "An application build around logging in and member priveleges and tiers",
+      "An application build around logging in and member priveleges and tiers.",
     stack: [ExpressIcon, NodeJSIcon, MongoDBIcon, EJSIcon],
     img: PassPortPic,
-    concepts: "encryption, data validation, CRUD, MVC, EJS",
+    concepts: "Encryption, Data validation, CRUD, MVC, EJS",
     link: "https://github.com/DavyFungALoi/members-only",
     id: 4,
   },

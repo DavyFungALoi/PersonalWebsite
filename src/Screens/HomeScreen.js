@@ -87,6 +87,7 @@ const HomeScreen = () => {
               img={project.img}
               stack={project.stack}
               concepts={project.concepts}
+              link={project.link}
             ></Project>
           ))}
         </div>
