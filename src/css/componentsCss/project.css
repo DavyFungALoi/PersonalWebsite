@@ -4,6 +4,7 @@
   background-color: F0F0F0, 100%;
   mix-blend-mode: pass-through;
   border: solid black;
+  margin: 10px;
 }
 
 .Project__Card__Container img {
@@ -33,6 +34,7 @@
   padding: 3px 11px;
   border: none;
   margin-top: 5px;
+  cursor: pointer;
 }
 
 .Project__Card__Container__Button a:hover {

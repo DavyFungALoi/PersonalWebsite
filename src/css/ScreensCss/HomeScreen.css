@@ -103,7 +103,26 @@
   width: 56px;
 }
 
+.ProjectOverview__Container__GithubCTA {
+text-align: center;
+margin-top: 50px;
+}
+
+.ProjectOverview__Container__GithubCTA button{
+  background: #62f8d4;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  margin: auto;
+  padding: 6px 22px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
 .About__Me__Container {
+  margin-top: 50px;
   border-left: 7px solid #62f8d4;
   padding-left: 23px;
 }

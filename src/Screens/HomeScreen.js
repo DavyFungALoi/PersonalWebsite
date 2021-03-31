@@ -9,7 +9,7 @@ import PassPortPic from "../Images/Projects/Passport.png";
 import PersonalWebsitePic from "../Images/Projects/PersonalWebsite.png";
 import Project from "../Components/Project";
 import TechStack from "../Components/TechStack";
-import Projects from "../data.js"
+import Projects from "../data.js";
 
 const HomeScreen = () => {
   return (
@@ -44,7 +44,7 @@ const HomeScreen = () => {
         <div>Scroll for more about me</div>
       </div>
       <div className="Expertise__Container">
-        <h2>My Skills</h2>
+        <h2>Skills</h2>
         <div className="Expertise__Container__Area__Container">
           <div>
             <img src={Expertise} alt="Expertise"></img>
@@ -72,12 +72,12 @@ const HomeScreen = () => {
           </div>
         </div>
         <div>
-          Tech Stack
+          <h2>Tech Stack</h2>
           <TechStack></TechStack>
         </div>
       </div>
       <div className="ProjectOverview__Container">
-        <h2 className="Project__Container__Header">My Projects</h2>
+        <h2 className="Project__Container__Header">Projects</h2>
         <div className="Projects_Container">
           {Projects.map((project) => (
             <Project
@@ -91,14 +91,11 @@ const HomeScreen = () => {
             ></Project>
           ))}
         </div>
-        <a href="https://github.com/DavyFungALoi">
-          See all Projects on Github
-          <img
-            src={GitHubIcon}
-            className="Projects_Social_Icon"
-            alt="GithubIcon"
-          ></img>
-        </a>
+        <div className="ProjectOverview__Container__GithubCTA">
+          <a href="https://github.com/DavyFungALoi">
+            <button>See all projects on Github ></button>
+          </a>
+        </div>
       </div>
       <div className="About__Me__Container">
         <h2>More About me</h2>
