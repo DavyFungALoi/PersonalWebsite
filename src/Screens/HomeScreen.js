@@ -4,15 +4,22 @@ import LinkedinIcon from "../Images/LinkedinIcon.png";
 import MouseWheelIconDownwards from "../Images/MouseWheelIconDownwards.png";
 import Expertise from "../Images/Expertise.png";
 import ProfilePic from "../Images/ProfilePicture.jpg";
-import BarbershopPic from "../Images/Projects/BarberShop.png";
-import PassPortPic from "../Images/Projects/Passport.png";
-import PersonalWebsitePic from "../Images/Projects/PersonalWebsite.png";
 import Project from "../Components/Project";
 import TechStack from "../Components/TechStack";
 import Projects from "../data.js";
 import RandomFunFact from "../Components/RandomFunFact";
 
 const HomeScreen = () => {
+  const projectJumpHandler = () => {
+    const Projectcontainer = document.querySelector(
+      ".ProjectOverview__Container"
+    );
+
+    Projectcontainer.scrollIntoView({ behavior: "smooth" });
+  };
+
+  ////   <a href="portfolio"></a>
+
   return (
     <>
       <div className="Introduction__Container">
@@ -24,9 +31,8 @@ const HomeScreen = () => {
           everyday.
         </div>
         <div className="Introduction__Container__Button__Container">
-          <a href="portfolio">
-            <button>My Projects ></button>
-          </a>
+          <button onClick={() => projectJumpHandler()}>My Projects ></button>
+
           <a href="contact">
             <button>Contact Me ></button>
           </a>
@@ -129,12 +135,15 @@ const HomeScreen = () => {
             </div>
             <div className="About__Me__Container__Info__Text__Paragraph">
               <h3>What I like in daily life</h3>
-              Apart from coding amongst others I like debating
-              <u>
+              <div>Hello</div>
+
+              <ul>
+                These are some of the things I really like
                 <li>Gaming</li>
-                <li>Forumula 1</li>
+                <li>Formula 1</li>
+                <li>Consuming tons of (social) media</li>
                 <li>Fun Facts!</li>
-              </u>
+              </ul>
             </div>
           </div>
           <img
@@ -145,10 +154,7 @@ const HomeScreen = () => {
         </div>
       </div>
       <RandomFunFact></RandomFunFact>
-      <div className="Quote__Container">
-        Build, Measure, Learn. Learn from everything, priortize what is
-        important to you and get it done.
-      </div>
+
       <div className="Timeline__Container">
         <div className="TimeLine__Container__Step">
           <h3>Job Title Thingy</h3>
@@ -172,10 +178,3 @@ const HomeScreen = () => {
 };
 
 export default HomeScreen;
-
-/*
-<img className="Profile__Pic" src={ProfilePic} alt="Profile Pic"></img>
- {Projects.map((project) => (
-          
-          ))}
-*/
