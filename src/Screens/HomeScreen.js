@@ -18,9 +18,9 @@ const HomeScreen = () => {
         <h1>Davy Fung-A-Loi</h1>
         <h2>Fullstack Developer</h2>
         <div className="Introduction__Container__Intro">
-          Hi! I’m a fullstack developer doing cool things. Small intro about me
-          that briefly summarises what it is that I do and just generally adds a
-          bit more content here.
+          Hi! I’m a fullstack developer doing cool things. I like to solve
+          problems and try to get better at everything I do a little bit
+          everyday.
         </div>
         <div className="Introduction__Container__Button__Container">
           <a href="portfolio">
@@ -50,24 +50,24 @@ const HomeScreen = () => {
             <img src={Expertise} alt="Expertise"></img>
             <h2>HTML & CSS</h2>
             <h3>
-              Short sum here of what you’re focussed on. Small, short thingy
-              here yes.
+              HTML & CSS, the backbone of web development, templating languages
+              such as EJS and JSX.
             </h3>
           </div>
           <div>
             <img src={Expertise} alt="Expertise"></img>
             <h2>Javascript</h2>
             <h3>
-              Short sum here of what you’re focussed on. Small, short thingy
-              here yes.
+              Javascript, React & Redux for the frontend and Node & Express for
+              the backend.
             </h3>
           </div>
           <div>
             <img src={Expertise} alt="Expertise"></img>
             <h2>Growth Mentality</h2>
             <h3>
-              Short sum here of what you’re focussed on. Small, short thingy
-              here yes.
+              I try to get better everyday at what I do and try to learn &
+              reflect on everything that I do.
             </h3>
           </div>
         </div>
@@ -98,34 +98,41 @@ const HomeScreen = () => {
         </div>
       </div>
       <div className="About__Me__Container">
-        <h2>More About me</h2>
+        <h2>Who am I?</h2>
         <div className="About__Me__Container__Info">
           <div className="About__Me__Container__Info__Text">
             <div className="About__Me__Container__Info__Text__Paragraph">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt.
+              <h3>The drive to code</h3>
+              When working as a Growth Hacker (first at a startup then at an
+              agency) I came across the world of coding. Tracking, AB Testing,
+              automation & data were all involved.I found out that at some point
+              I was counting down the hours doing online marketing. It was then
+              that I decided to make the switch. I loved the solving problems
+              aspect, the creativity and quickly found out that I would lose
+              track of time while doing programming. I would get into flow, that
+              was a really strong sign for me to dive in even deeper and for the
+              past 1.5 years I taught myself to code, almost every day, little
+              by little.
             </div>
             <div className="About__Me__Container__Info__Text__Paragraph">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt.
+              <h3>What I believe in</h3>I believe that virtually anyone can
+              learn any skill, as long as they put in the effort & the
+              discipline. The question is whether you like it or not. If you
+              want something done, then you should just do it. One of the most
+              valuable lessons was from an ex-collegue of mine. He had this huge
+              undertaking he had to do, his advise on how to start? "Just
+              Start". Build, Measure, Learn. Learn from everything, priortize
+              what is important to you (both in life and in work) and get it
+              done.
             </div>
             <div className="About__Me__Container__Info__Text__Paragraph">
-              Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-              consectetur, adipisci velit, sed quia non numquam eius modi
-              tempora incidunt ut labore et dolore magnam aliquam quaerat
-              voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
-              ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-              consequatur? Quis autem vel eum iure reprehenderit qui in ea
-              voluptate velit esse quam nihil molestiae consequatur, vel illum
-              qui dolorem eum fugiat quo voluptas nulla pariatur?
+              <h3>What I like in daily life</h3>
+              Apart from coding amongst others I like debating
+              <u>
+                <li>Gaming</li>
+                <li>Forumula 1</li>
+                <li>Fun Facts!</li>
+              </u>
             </div>
           </div>
           <img
@@ -135,7 +142,10 @@ const HomeScreen = () => {
           ></img>
         </div>
       </div>
-      <div className="Quote__Container"></div>
+      <div className="Quote__Container">
+        Build, Measure, Learn. Learn from everything, priortize what is
+        important to you and get it done.
+      </div>
       <div className="Timeline__Container">
         <div className="TimeLine__Container__Step">
           <h3>Job Title Thingy</h3>
