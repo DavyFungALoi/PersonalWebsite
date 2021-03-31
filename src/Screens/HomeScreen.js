@@ -5,46 +5,13 @@ import MouseWheelIconDownwards from "../Images/MouseWheelIconDownwards.png";
 import Expertise from "../Images/Expertise.png";
 import ProfilePic from "../Images/ProfilePicture.jpg";
 import BarbershopPic from "../Images/Projects/BarberShop.png";
-import KeyboardShopPic from "../Images/Projects/KeyboardShop.png";
 import PassPortPic from "../Images/Projects/Passport.png";
 import PersonalWebsitePic from "../Images/Projects/PersonalWebsite.png";
 import Project from "../Components/Project";
 import TechStack from "../Components/TechStack";
+import Projects from "../data.js"
 
 const HomeScreen = () => {
-  const Projects = [
-    {
-      name: "Barbershop",
-      description:
-        "A fullstack application where you can make a barber's appointment",
-      stack: "Redux, React, Mongoose, Node,",
-      img: BarbershopPic,
-      concepts: "MERN, encryption, One Page Checkout, CRUD, MVC",
-      link: "https://github.com/DavyFungALoi/barbershop",
-      id: 1,
-    },
-    {
-      name: "Personal website",
-      description: "A personal website to showcase who I am",
-      stack: "React, HTML, CSS, Javascript",
-      img: PersonalWebsitePic,
-      concepts: "Routing, Components, Figma",
-      link: "https://github.com/DavyFungALoi/PersonalWebsite",
-      id: 2,
-    },
-
-    {
-      name: "Members Only",
-      description:
-        "An application build around logging in and member priveleges and tiers",
-      stack: "Express, Node, Mongoose, Node, EJS",
-      img: PassPortPic,
-      concepts: "encryption, data validation, CRUD, MVC, EJS",
-      link: "https://github.com/DavyFungALoi/members-only",
-      id: 4,
-    },
-  ];
-
   return (
     <>
       <div className="Introduction__Container">
