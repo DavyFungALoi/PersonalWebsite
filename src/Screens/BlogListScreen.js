@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import RandomFunFact from "../Components/RandomFunFact";
 
 const BlogListScreen = () => {
-    return (
-        <div>
-            Bloglist
-        </div>
-    )
-}
+  return (
+    <div>
+      <RandomFunFact></RandomFunFact>
+    </div>
+  );
+};
 
-export default BlogListScreen
+export default BlogListScreen;

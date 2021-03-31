@@ -81,6 +81,7 @@ const HomeScreen = () => {
         <div className="Projects_Container">
           {Projects.map((project) => (
             <Project
+              key={project.id}
               name={project.name}
               description={project.description}
               id={project.id}

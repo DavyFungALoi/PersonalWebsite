@@ -1,7 +1,7 @@
 import React from "react";
 
 const Project = (props) => {
-  const { name, img, description, stack, concepts, link } = props;
+  const { name, img, description, stack, concepts, link, id } = props;
 
   return (
     <div className="Project__Card__Container">
