@@ -4,15 +4,15 @@ import { useState } from "react";
 const RandomFunFact = () => {
   const funFactArray = [
     "The Black Box in an aircraft is actually orange.",
-    "The Russian October Revolution takes place in September, this is because they followed the Julian Calendar.",
-    "Napoleon never started a war, others always have always declared war on him first.",
+    "I am afraid of clowns",
+    "I think sushi is one of the most overated dishes in the world",
     "Due to its many colonies, independence from Britain is celebrated somewhere in the world, on average, one in every seven days.",
     "Octopuses change color when they're dreaming.",
-    "The entire Toy Story 2 Movie was once deleted during production and it was only saved because an employee had a backup at home.",
-    "Australia fought a war against Emus...and lost.",
     "Legendary basketball player Shaq O'Neal hit the basket over 12.000 times but only scored 1 3-pointer.",
     "Saudi Arabia imports sand and camels from Australia.",
-    "When Sweden plays Denmark in Sweden the scoreboard reads SWE - DEN. The remaining letters read DEN- MARK. ",
+    "I really like trashy movies / series",
+    "I listen to Kpop (Korean pop music) unironically",
+    "Despite studying in Amsterdam for 6 years I never visited any museums, not my thing",
   ];
 
   const [randomNumberArray, setRandomNumber] = useState(0);
@@ -30,7 +30,7 @@ const RandomFunFact = () => {
           randomFactHandler();
         }}
       >
-        Get a random fun fact!
+        Get a random fun fact, some of them about me!
       </button>
       <div className="RandomFunFact__Container__Text">
         {funFactArray[randomNumberArray]}
