@@ -1,0 +1,21 @@
+.BlogContainer{
+
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.Blog_Screen_Button {
+    background-color: #62f8d4;
+    color: white;
+    font-size: 2.125rem;
+    font-weight: 700;
+    font-family: Overpass;
+    width: 346px;
+    height: 104px;
+    margin-right: 36px;
+    margin-top: 22px;
+    border: none;
+    cursor: pointer;
+  }
+  
