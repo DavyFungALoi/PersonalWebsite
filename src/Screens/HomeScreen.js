@@ -8,6 +8,7 @@ import Project from "../Components/Project";
 import TechStack from "../Components/TechStack";
 import Projects from "../data.js";
 import RandomFunFact from "../Components/RandomFunFact";
+import ContactComponent from "../Components/ContactComponent";
 
 const HomeScreen = () => {
   const projectJumpHandler = () => {
@@ -17,18 +18,15 @@ const HomeScreen = () => {
 
     Projectcontainer.scrollIntoView({ behavior: "smooth" });
   };
-
-  ////   <a href="portfolio"></a>
-
   return (
     <>
       <div className="Introduction__Container">
         <h1>Davy Fung-A-Loi</h1>
         <h2>Fullstack Developer</h2>
         <div className="Introduction__Container__Intro">
-          Hi! I’m a fullstack developer doing cool things. I like to solve
-          problems and try to get better at everything I do a little bit
-          everyday.
+          Hi! I’m a fullstack developer. I like to solve problems and try to get
+          better at everything I do a little bit everyday. I also really like
+          fun facts.
         </div>
         <div className="Introduction__Container__Button__Container">
           <button onClick={() => projectJumpHandler()}>My Projects ></button>
@@ -135,14 +133,19 @@ const HomeScreen = () => {
             </div>
             <div className="About__Me__Container__Info__Text__Paragraph">
               <h3>What I like in daily life</h3>
-              <div>Hello</div>
+              <div>
+                I would proudly call myself a bit of a nerd, things such as Star
+                Wars, Harry Potter, World of Warcraft and gaming are things that
+                I enjoy almost.
+              </div>
 
               <ul>
-                These are some of the things I really like
+                These are some of the things I enjoy greatly.
                 <li>Gaming</li>
                 <li>Formula 1</li>
                 <li>Consuming tons of (social) media</li>
-                <li>Fun Facts!</li>
+                <li>Eating delicious food</li>
+                <li>Debating</li>
               </ul>
             </div>
           </div>
@@ -173,6 +176,7 @@ const HomeScreen = () => {
           <div>2018</div>
         </div>
       </div>
+      <ContactComponent></ContactComponent>
     </>
   );
 };

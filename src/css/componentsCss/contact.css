@@ -1,0 +1,32 @@
+.Contact__Container img {
+  width: 55px;
+  height: 55px;
+}
+.Contact__Container h2 {
+  font-family: Chakra petch;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.Contact__Container a {
+  text-decoration: none;
+  color: black;
+}
+
+.Contact__Container__Main {
+  border: 3px dashed #62f8d4;
+  display: grid;
+  width: 700px;
+  grid-template-columns: repeat(2, 350px);
+  padding: 15px
+}
+
+.Contact__Container__Element {
+  display: flex;
+  align-items: center;
+  padding: 15px
+}
+
+.Container__Element_Description {
+  margin: 25px;
+}

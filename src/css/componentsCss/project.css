@@ -1,6 +1,10 @@
 .Project__Card__Container {
   width: 402px;
   height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: F0F0F0, 100%;
   mix-blend-mode: pass-through;
   border: solid black;
@@ -14,6 +18,7 @@
 
 .Project__Card__Container__Description {
   padding: 15px;
+  height: 15px;
 }
 
 .Project__Card__Container__Stack {
@@ -33,7 +38,7 @@
   margin: auto;
   padding: 3px 11px;
   border: none;
-  margin-top: 5px;
+  margin-top: 10px;
   cursor: pointer;
 }
 

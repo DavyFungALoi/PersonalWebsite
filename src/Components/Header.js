@@ -3,13 +3,20 @@ import GitHubIcon from "../Images/GitHubIcon.png";
 import LinkedinIcon from "../Images/LinkedinIcon.png";
 
 const Header = () => {
+  const projectJumpHandler = () => {
+    const Projectcontainer = document.querySelector(
+      ".ProjectOverview__Container"
+    );
+
+    Projectcontainer.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="Header">
       <ul>
         <a className="active" href="/">
           Welcome
         </a>
-        <a href="portfolio">Projects</a>
+        <a onClick={() => projectJumpHandler()}>My Projects</a>
         <a href="blog">Blog</a>
         <a href="about">About</a>
 
@@ -29,5 +36,7 @@ const Header = () => {
     </div>
   );
 };
+
+/// <button onClick={() => projectJumpHandler()}>My Projects ></button>
 
 export default Header;

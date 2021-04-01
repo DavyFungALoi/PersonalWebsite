@@ -1,9 +1,10 @@
 import React from 'react'
+import ContactComponent from '../Components/ContactComponent'
 
 export const ContactScreen = () => {
     return (
         <div>
-            Contact
+            <ContactComponent></ContactComponent>
         </div>
     )
 }
