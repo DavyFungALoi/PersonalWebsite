@@ -10,14 +10,9 @@
   box-sizing: border-box;
 }
 
-.FooterContainer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: aqua;
-  color: white;
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .CTAContainer img {

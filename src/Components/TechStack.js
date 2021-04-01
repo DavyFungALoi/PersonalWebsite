@@ -45,7 +45,7 @@ const TechStack = () => {
       id: 6,
     },
     {
-      name: "Google Tag Manager",
+      name: "Tag Manager",
       icon: GoogleTagManagerIcon,
       alt: "Google Tag Manager Icon",
       id: 7,

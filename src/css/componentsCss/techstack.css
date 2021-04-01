@@ -1,25 +1,25 @@
-
 .TechStack__Container {
   display: flex;
   margin: 10px;
-  justify-content: center;
+  align-items: center;
 }
 
 .TechStack__Container__Stack {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 125px;
+  height: 145px;
   margin: 40px;
-  text-align: center;
-  
 }
 .TechStack__Container__Stack__Name {
- font-size: 1.4rem;
- font-family: Chakra Petch;
+  font-size: 1.4rem;
+  font-family: Chakra Petch;
+  height: 65px;
 }
-
 
 .TechStack__Container__Stack__Image {
   width: 55px;
   height: 55px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
-
-

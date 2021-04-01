@@ -1,21 +1,12 @@
-.HeaderContainer {
-  display: flex;
-  margin-left: 1000px;
-  margin-top: 15px;
-  position: fixed;
-  overflow: visible;
-  height: 34px;
-  z-index: 1;
-  top: 0;
-
-}
-
-.HeaderContainer a {
-  text-decoration: none;
-}
-
 .Header {
   display: flex;
+  height: 34px;
+  margin-top: 27px;
+  justify-content: flex-end;
+  z-index: 1;
+  top: 0;
+ 
+  margin-right: 93px;
 }
 
 .Header ul a {
@@ -25,6 +16,7 @@
   line-height: 27.58px;
   color: black;
   margin: 42px;
+  text-decoration: none;
 }
 
 .Header a:hover {
