@@ -9,6 +9,7 @@ import TechStack from "../Components/TechStack";
 import Projects from "../data.js";
 import RandomFunFact from "../Components/RandomFunFact";
 import ContactComponent from "../Components/ContactComponent";
+import TimeLine from "../Components/TimeLine";
 
 const HomeScreen = () => {
   const projectJumpHandler = () => {
@@ -83,19 +84,19 @@ const HomeScreen = () => {
       </div>
       <div className="ProjectOverview__Container">
         <h2 className="Project__Container__Header">Projects</h2>
-        <div className ="Projects_Container">
+        <div className="Projects_Container">
           {Projects.map((project) => (
             <div key={project.name}>
-            <Project
-              key={project.id}
-              name={project.name}
-              description={project.description}
-              id={project.id}
-              img={project.img}
-              stack={project.stack}
-              concepts={project.concepts}
-              link={project.link}
-            ></Project>
+              <Project
+                key={project.id}
+                name={project.name}
+                description={project.description}
+                id={project.id}
+                img={project.img}
+                stack={project.stack}
+                concepts={project.concepts}
+                link={project.link}
+              ></Project>
             </div>
           ))}
         </div>
@@ -160,24 +161,7 @@ const HomeScreen = () => {
       </div>
       <RandomFunFact></RandomFunFact>
 
-      <div className="Timeline__Container">
-        <div className="TimeLine__Container__Step">
-          <h3>Job Title Thingy</h3>
-          <div>2018</div>
-        </div>
-        <div className="TimeLine__Container__Step">
-          <h3>Job Title Thingy</h3>
-          <div>2018</div>
-        </div>
-        <div className="TimeLine__Container__Step">
-          <h3>Job Title Thingy</h3>
-          <div>2018</div>
-        </div>
-        <div className="TimeLine__Container__Step">
-          <h3>Job Title Thingy</h3>
-          <div>2018</div>
-        </div>
-      </div>
+      <TimeLine className="HomeScreen__Timeline"></TimeLine>
       <ContactComponent></ContactComponent>
     </>
   );

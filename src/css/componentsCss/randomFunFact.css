@@ -23,12 +23,12 @@
 }
 
 .RandomFunFact__Container__Text {
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 25px;
-  font-family: Chakra Petch;
+  font-family: 'Source Code Pro', monospace;
   position: relative;
   text-align: center;
-  border: solid black;
+  color: red;
   width: 393px;
   height: 80px;
   padding-top: 5px;

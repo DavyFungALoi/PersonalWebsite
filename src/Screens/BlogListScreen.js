@@ -5,6 +5,7 @@ const BlogListScreen = () => {
   return (
     <div>
       <RandomFunFact></RandomFunFact>
+   
     </div>
   );
 };

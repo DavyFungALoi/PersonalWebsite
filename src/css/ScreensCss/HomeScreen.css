@@ -104,11 +104,11 @@
 }
 
 .ProjectOverview__Container__GithubCTA {
-text-align: center;
-margin-top: 50px;
+  text-align: center;
+  margin-top: 50px;
 }
 
-.ProjectOverview__Container__GithubCTA button{
+.ProjectOverview__Container__GithubCTA button {
   background: #62f8d4;
   color: white;
   font-weight: 600;
@@ -118,8 +118,6 @@ margin-top: 50px;
   border: none;
   cursor: pointer;
 }
-
-
 
 .About__Me__Container {
   margin-top: 50px;
@@ -140,12 +138,10 @@ margin-top: 50px;
   margin-top: 50px;
 }
 
-.About__Me__Container__Info__Text__Paragraph ul{
-
+.About__Me__Container__Info__Text__Paragraph ul {
 }
 
 .Profile__Pic {
   width: 449px;
   height: 546px;
 }
-background-color: blue;
