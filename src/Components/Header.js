@@ -1,20 +1,27 @@
 import React from "react";
 import GitHubIcon from "../Images/GitHubIcon.png";
 import LinkedinIcon from "../Images/LinkedinIcon.png";
+import { useHistory } from "react-router-dom";
 
 const Header = () => {
+  let history = useHistory();
   const projectJumpHandler = () => {
-    const Projectcontainer = document.querySelector(
+    const ProjectContainer = document.querySelector(
       ".ProjectOverview__Container"
     );
-
-    Projectcontainer.scrollIntoView({ behavior: "smooth" });
+    if (!ProjectContainer) {
+      history.push("/");
+    } else {
+      ProjectContainer.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   const AboutJumpHandler = () => {
     const AboutContainer = document.querySelector(".About__Me__Container");
     if (!AboutContainer) {
-      console.log("hello");
+      history.push("/");
+    } else {
+      AboutContainer.scrollIntoView({ behavior: "smooth" });
     }
   };
   return (
