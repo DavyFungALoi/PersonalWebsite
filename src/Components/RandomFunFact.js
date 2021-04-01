@@ -11,7 +11,7 @@ const RandomFunFact = () => {
     "Octopuses change color when they're dreaming.",
     "Legendary basketball player Shaq O'Neal hit the basket over 12.000 times but only scored 1 3-pointer.",
     "Saudi Arabia imports sand and camels from Australia.",
-    "I really like trashy movies / series",
+    "I really like trashy movies and series",
     "I listen to Kpop (Korean pop music) unironically",
     "Despite studying in Amsterdam for 6 years I never visited any museums, not my thing",
   ];

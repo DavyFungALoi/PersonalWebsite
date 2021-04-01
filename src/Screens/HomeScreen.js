@@ -139,11 +139,11 @@ const HomeScreen = () => {
               <div>
                 I would proudly call myself a bit of a nerd, things such as Star
                 Wars, Harry Potter, World of Warcraft and gaming are things that
-                I enjoy almost.
+                I enjoy a lot
               </div>
 
               <ul>
-                These are some of the things I enjoy greatly.
+                Hobbies include amongst others
                 <li>Gaming</li>
                 <li>Formula 1</li>
                 <li>Consuming tons of (social) media</li>
@@ -161,8 +161,10 @@ const HomeScreen = () => {
       </div>
       <RandomFunFact></RandomFunFact>
 
-      <TimeLine className="HomeScreen__Timeline"></TimeLine>
-      <ContactComponent></ContactComponent>
+      <TimeLine></TimeLine>
+      <div className="HomeScreen_Component">
+        <ContactComponent></ContactComponent>
+      </div>
     </>
   );
 };

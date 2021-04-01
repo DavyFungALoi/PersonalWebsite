@@ -1,12 +1,10 @@
 .RandomFunFact__Container {
   text-align: center;
-  width: 393px;
+  width: 400px;
   margin: auto;
   height: 225px;
   margin-top: 50px;
-  margin-bottom: 50px;
-}
-.RandomFunFact__Container h2 {
+  margin-bottom: 100px;
 }
 .RandomFunFact__Container__Button {
   background: #62f8d4;
