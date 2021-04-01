@@ -15,21 +15,17 @@ const ContactComponent = () => {
         >
           <img src={EmailIcon} alt="EmailIcon"></img>
 
-          <a
-            className="Container__Element_Description"
-            href="mailto:davyfungaloi@gmail.com"
-          >
+          <div className="Container__Element_Description">
             Email me at davyfungaloi@gmail.com
-          </a>
+          </div>
         </a>
         <a href="tel:0641223947" className="Contact__Container__Element">
           <img src={PhoneIcon} alt="Phone Icon"></img>
 
-          <a className="Container__Element_Description" href="tel:0641223947">
+          <div className="Container__Element_Description">
             Call me at 0641223947
-          </a>
+          </div>
         </a>
-
         <a
           href="https://www.linkedin.com/in/davyfungaloi/"
           className="Contact__Container__Element"
@@ -42,7 +38,6 @@ const ContactComponent = () => {
         </a>
         <a
           href="https://github.com/DavyFungALoi"
-          div
           className="Contact__Container__Element"
         >
           <img src={GitHubIcon} alt="GithubIcon"></img>

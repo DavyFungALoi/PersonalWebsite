@@ -83,8 +83,9 @@ const HomeScreen = () => {
       </div>
       <div className="ProjectOverview__Container">
         <h2 className="Project__Container__Header">Projects</h2>
-        <div className="Projects_Container">
+        <div className ="Projects_Container">
           {Projects.map((project) => (
+            <div key={project.name}>
             <Project
               key={project.id}
               name={project.name}
@@ -95,6 +96,7 @@ const HomeScreen = () => {
               concepts={project.concepts}
               link={project.link}
             ></Project>
+            </div>
           ))}
         </div>
         <div className="ProjectOverview__Container__GithubCTA">

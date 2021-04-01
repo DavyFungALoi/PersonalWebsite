@@ -10,6 +10,13 @@ const Header = () => {
 
     Projectcontainer.scrollIntoView({ behavior: "smooth" });
   };
+
+  const AboutJumpHandler = () => {
+    const AboutContainer = document.querySelector(".About__Me__Container");
+    if (!AboutContainer) {
+      console.log("hello");
+    }
+  };
   return (
     <div className="Header">
       <ul>
@@ -18,7 +25,7 @@ const Header = () => {
         </a>
         <a onClick={() => projectJumpHandler()}>My Projects</a>
         <a href="blog">Blog</a>
-        <a href="about">About</a>
+        <a onClick={() => AboutJumpHandler()}>About</a>
 
         <a className="Header__Contact" href="contact">
           Contact Me

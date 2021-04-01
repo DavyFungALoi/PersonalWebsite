@@ -40,7 +40,7 @@ const Projects = [
     img: PassPortPic,
     concepts: "Encryption, Data validation, CRUD, MVC, EJS",
     link: "https://github.com/DavyFungALoi/members-only",
-    id: 4,
+    id: 3,
   },
 ];
 
