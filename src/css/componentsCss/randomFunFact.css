@@ -10,24 +10,27 @@
   background: #62f8d4;
   color: white;
   font-weight: 600;
-  font-size: 26px;
+  font-size: 18px;
   margin: auto;
   padding: 3px 11px;
   border: none;
-
+  width: 493px;
+  height: 74px;
   cursor: pointer;
 
   border-radius: 4px;
 }
 
 .RandomFunFact__Container__Text {
-  font-size: 24px;
+  font-size: 18px;
   margin-top: 25px;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Chakra Petch", monospace;
   position: relative;
   text-align: center;
-  color: red;
-  width: 393px;
-  height: 80px;
-  padding-top: 5px;
+  border: 3px dashed #000000;
+  width: 493px;
+  height: 95px;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 }

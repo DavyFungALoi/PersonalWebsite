@@ -146,7 +146,7 @@ const HomeScreen = () => {
               <div>
                 I would proudly call myself a bit of a nerd, things such as Star
                 Wars, Harry Potter, World of Warcraft and gaming are things that
-                I enjoy a lot
+                I enjoy a lot.
               </div>
 
               <ul>
