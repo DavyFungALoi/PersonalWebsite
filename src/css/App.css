@@ -30,3 +30,9 @@ body {
   margin-right: 332px;
   position: relative;
 }
+
+@media (max-width: 600px) {
+  .MainContainer {
+    margin: 0;
+  }
+}
