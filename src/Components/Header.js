@@ -5,15 +5,18 @@ import { useHistory } from "react-router-dom";
 
 const Header = () => {
   let history = useHistory();
+
   const projectJumpHandler = () => {
     const ProjectContainer = document.querySelector(
-      ".ProjectOverview__Container"
+      ".Project__Container__Header"
     );
     if (!ProjectContainer) {
       history.push("/");
     } else {
       ProjectContainer.scrollIntoView({ behavior: "smooth" });
     }
+    const list = document.querySelector(".Header");
+    list.classList.toggle("HamburgerOverlay");
   };
 
   const AboutJumpHandler = () => {
@@ -26,7 +29,8 @@ const Header = () => {
   };
 
   const openHamburgerHandler = () => {
-    console.log("Hello");
+    const list = document.querySelector(".Header");
+    list.classList.toggle("HamburgerOverlay");
   };
   return (
     <div className="Header">
@@ -40,10 +44,8 @@ const Header = () => {
         <div className="Hamburger__Menu__Line"></div>
         <div className="Hamburger__Menu__Line"></div>
       </div>
-      <ul>
-        <a className="active" href="/">
-          Welcome
-        </a>
+      <ul className="Header__Menu">
+        <a href="/">Welcome</a>
         <a onClick={() => projectJumpHandler()}>My Projects</a>
         <a href="blog">Blog</a>
         <a onClick={() => AboutJumpHandler()}>About</a>
