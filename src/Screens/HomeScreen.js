@@ -14,13 +14,13 @@ import JavaScriptVector from "../Images/Skills/JsVector.png";
 import HTMLVector from "../Images/Skills/HTMLVector.png";
 import CSSVector from "../Images/Skills/CssVector.png";
 import GrowthVector from "../Images/Skills/GrowthVector.png";
+import DownwardsArrowVector from "../Images/DownWardsArrow.png";
 
 const HomeScreen = () => {
   const projectJumpHandler = () => {
     const Projectcontainer = document.querySelector(
       ".ProjectOverview__Container"
     );
-
     Projectcontainer.scrollIntoView({ behavior: "smooth" });
   };
   return (
@@ -48,6 +48,14 @@ const HomeScreen = () => {
             <img src={GitHubIcon} alt="GithubIcon"></img>
           </a>
         </div>
+      </div>
+      <div className="DownWards__Arrow__Container">
+        <div>jump to projects</div>
+        <img
+          onClick={() => projectJumpHandler()}
+          src={DownwardsArrowVector}
+          alt="DownwardsArrow"
+        ></img>
       </div>
       <div className="Scroll__Downwards__Container">
         <img src={MouseWheelIconDownwards} alt="MouseWheelIconDownwards"></img>

@@ -13,10 +13,10 @@
   .Introduction__Container {
     margin-left: 21px;
     width: 320px;
-    margin-top: 111px;
+    margin-top: 30px;
   }
 }
-
+/*margin-top 111px intiially on introduction container */
 .Introduction__Container h1 {
   font-family: Chakra Petch;
   font-weight: 700;
@@ -51,6 +51,9 @@
 
 @media (max-width: 600px) {
   .Introduction__Container__Button__Container button {
+    display: none;
+  }
+  .Scroll__Downwards__Container {
     display: none;
   }
 }
@@ -99,6 +102,25 @@
   opacity: 50%;
 }
 
+.DownWards__Arrow__Container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 91px;
+  margin-left: 293px;
+}
+
+.DownWards__Arrow__Container img {
+  width: 65px;
+  height: 47px;
+  background-color: rgba(98, 248, 212, 0.24);
+}
+
+@media (min-width: 600px) {
+  .DownWards__Arrow__Container {
+    display: none;
+  }
+}
+
 .Expertise__Container {
   margin-top: 257px;
   text-align: center;
@@ -110,10 +132,9 @@
   text-align: center;
 }
 
-.Expertise_Container__Area_Container__Img__Container{
- display: flex;
- justify-content: center;
- 
+.Expertise_Container__Area_Container__Img__Container {
+  display: flex;
+  justify-content: center;
 }
 
 .Expertise_Container__Area_Container__Img__Container img {
