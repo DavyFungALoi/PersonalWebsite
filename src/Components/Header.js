@@ -26,6 +26,9 @@ const Header = () => {
   };
   return (
     <div className="Header">
+      <button className="Hamburger_menu">
+        
+      </button>
       <ul>
         <a className="active" href="/">
           Welcome
@@ -50,7 +53,5 @@ const Header = () => {
     </div>
   );
 };
-
-/// <button onClick={() => projectJumpHandler()}>My Projects ></button>
 
 export default Header;

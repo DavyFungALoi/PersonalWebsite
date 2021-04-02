@@ -9,6 +9,9 @@
   position: sticky;
 }
 
+@media (max-width: 600px) {
+}
+
 .Header ul a {
   font-family: Overpass;
   font-weight: 400;
@@ -18,6 +21,12 @@
   margin: 42px;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .Header ul a, .Header__IconContainer {
+    display: none;
+  }
 }
 
 .Header a:hover {
@@ -37,6 +46,11 @@
   display: flex;
   flex-direction: column;
   margin-left: 42px;
+}
+@media (max-width: 600px) {
+  .Header__IconContainer {
+    display: none;
+  }
 }
 
 .Header img {
