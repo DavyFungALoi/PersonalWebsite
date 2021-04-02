@@ -23,3 +23,29 @@
   height: 55px;
   margin-top: 10px;
 }
+
+@media (max-width: 600px) {
+  .TechStack__Container {
+    display: grid;
+    align-items: normal;
+    margin: 0;
+    justify-content: center;
+    grid-column-gap: 35px;
+    grid-row-gap: 46px;
+    grid-template-columns: 80px 80px 80px;
+  }
+  .TechStack__Container__Stack {
+    margin: 0px;
+    width: 81px;
+    justify-content: space-evenly;
+    text-align: unset;
+  }
+  .TechStack__Container__Stack__Name {
+    font-size: 1.125rem;
+    font-family: Chakra Petch;
+  }
+  .TechStack__Container__Stack__Image {
+    width: 80px;
+    height: 81px;
+  }
+}

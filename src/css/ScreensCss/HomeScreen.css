@@ -156,7 +156,8 @@
     margin-top: 132px;
   }
   .Expertise__Container__Header {
-    margin-right: 155px;
+    text-align: left;
+    margin-left: 36px;
   }
   .Expertise__Container__Area__Container {
     display: block;
@@ -193,6 +194,21 @@
     width: 81.32px;
     height: 64.84px;
   }
+  .TechStack__Container__Header {
+    font-family: Chakra Petch;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 36px;
+    height: 47px;
+    width: 208px;
+
+    top: 53px;
+  }
 }
 
 .Projects_Container {
@@ -224,6 +240,22 @@
   padding: 6px 22px;
   border: none;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .Project__Container__Header {
+    font-family: Chakra Petch;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 36px;
+    height: 47px;
+    width: 208px;
+  }
 }
 
 .About__Me__Container {

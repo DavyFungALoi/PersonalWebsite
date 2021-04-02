@@ -76,12 +76,20 @@ const HomeScreen = () => {
             </h3>
           </div>
           <div>
-            <img className="JavaScriptIcon" src={JavaScriptVector} alt="JavascriptIcon"></img>
+            <img
+              className="JavaScriptIcon"
+              src={JavaScriptVector}
+              alt="JavascriptIcon"
+            ></img>
             <h2>Javascript</h2>
             <h3>React & Redux for the frontend and Node for the backend.</h3>
           </div>
           <div>
-            <img className="GrowthIcon" src={GrowthVector} alt="GrowthIcon"></img>
+            <img
+              className="GrowthIcon"
+              src={GrowthVector}
+              alt="GrowthIcon"
+            ></img>
             <h2>Growth Mentality</h2>
             <h3>
               I try to get better everyday at what I do and try to learn &
@@ -90,7 +98,7 @@ const HomeScreen = () => {
           </div>
         </div>
         <div>
-          <h2>Tech Stack</h2>
+          <h2 className="TechStack__Container__Header">Tech Stack</h2>
           <TechStack></TechStack>
         </div>
       </div>

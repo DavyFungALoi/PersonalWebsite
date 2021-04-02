@@ -1,5 +1,4 @@
 import React from "react";
-import RandomFunFact from "../Components/RandomFunFact";
 
 const BlogListScreen = () => {
   return (
