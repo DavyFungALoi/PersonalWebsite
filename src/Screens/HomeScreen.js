@@ -10,6 +10,10 @@ import Projects from "../data.js";
 import RandomFunFact from "../Components/RandomFunFact";
 import ContactComponent from "../Components/ContactComponent";
 import TimeLine from "../Components/TimeLine";
+import JavaScriptVector from "../Images/Skills/JsVector.png";
+import HTMLVector from "../Images/Skills/HTMLVector.png";
+import CSSVector from "../Images/Skills/CssVector.png";
+import GrowthVector from "../Images/Skills/GrowthVector.png";
 
 const HomeScreen = () => {
   const projectJumpHandler = () => {
@@ -53,7 +57,10 @@ const HomeScreen = () => {
         <h2>Skills</h2>
         <div className="Expertise__Container__Area__Container">
           <div>
-            <img src={Expertise} alt="Expertise"></img>
+            <div className="Expertise_Container__Area_Container__Img__Container">
+              <img src={HTMLVector} alt="HTMLIcon"></img>
+              <img src={CSSVector} alt="CSSIcon"></img>
+            </div>
             <h2>HTML & CSS</h2>
             <h3>
               HTML & CSS, the backbone of web development, templating languages
@@ -61,7 +68,7 @@ const HomeScreen = () => {
             </h3>
           </div>
           <div>
-            <img src={Expertise} alt="Expertise"></img>
+            <img src={JavaScriptVector} alt="JavascriptIcon"></img>
             <h2>Javascript</h2>
             <h3>
               Javascript, React & Redux for the frontend and Node & Express for
@@ -69,7 +76,7 @@ const HomeScreen = () => {
             </h3>
           </div>
           <div>
-            <img src={Expertise} alt="Expertise"></img>
+            <img src={GrowthVector} alt="GrowthIcon"></img>
             <h2>Growth Mentality</h2>
             <h3>
               I try to get better everyday at what I do and try to learn &
