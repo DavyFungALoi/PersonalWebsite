@@ -62,7 +62,7 @@ const HomeScreen = () => {
         <div>Scroll for more about me</div>
       </div>
       <div className="Expertise__Container">
-        <h2>Skills</h2>
+        <h2 className="Expertise__Container__Header">Skills</h2>
         <div className="Expertise__Container__Area__Container">
           <div>
             <div className="Expertise_Container__Area_Container__Img__Container">
@@ -71,20 +71,17 @@ const HomeScreen = () => {
             </div>
             <h2>HTML & CSS</h2>
             <h3>
-              HTML & CSS, the backbone of web development, templating languages
-              such as EJS and JSX.
+              The backbone of web development, templating languages such as EJS
+              and JSX.
             </h3>
           </div>
           <div>
-            <img src={JavaScriptVector} alt="JavascriptIcon"></img>
+            <img className="JavaScriptIcon" src={JavaScriptVector} alt="JavascriptIcon"></img>
             <h2>Javascript</h2>
-            <h3>
-              Javascript, React & Redux for the frontend and Node & Express for
-              the backend.
-            </h3>
+            <h3>React & Redux for the frontend and Node for the backend.</h3>
           </div>
           <div>
-            <img src={GrowthVector} alt="GrowthIcon"></img>
+            <img className="GrowthIcon" src={GrowthVector} alt="GrowthIcon"></img>
             <h2>Growth Mentality</h2>
             <h3>
               I try to get better everyday at what I do and try to learn &

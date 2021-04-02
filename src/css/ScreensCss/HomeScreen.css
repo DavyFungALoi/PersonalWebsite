@@ -126,10 +126,19 @@
   text-align: center;
 }
 
+.Expertise__Container__Header {
+  font-family: Chakra Petch;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0em;
+}
+
 .Expertise__Container__Area__Container {
   display: flex;
-
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .Expertise_Container__Area_Container__Img__Container {
@@ -140,6 +149,50 @@
 .Expertise_Container__Area_Container__Img__Container img {
   padding-left: 25px;
   padding-right: 25px;
+}
+
+@media (max-width: 600px) {
+  .Expertise__Container {
+    margin-top: 132px;
+  }
+  .Expertise__Container__Header {
+    margin-right: 155px;
+  }
+  .Expertise__Container__Area__Container {
+    display: block;
+    text-align: center;
+  }
+  .Expertise__Container__Area__Container h2 {
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 700;
+  }
+  .Expertise__Container__Area__Container h3 {
+    margin-top: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-weight: 400;
+  }
+
+  .Expertise_Container__Area_Container__Img__Container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 18.44px;
+  }
+
+  .Expertise_Container__Area_Container__Img__Container img {
+    width: 43.12px;
+    height: 64px;
+    padding: 0;
+  }
+  .JavaScriptIcon {
+    width: 43.12px;
+    height: 64px;
+  }
+  .GrowthIcon {
+    width: 81.32px;
+    height: 64.84px;
+  }
 }
 
 .Projects_Container {
