@@ -10,6 +10,7 @@ import PortFolioListScreen from "./Screens/PortFolioListScreen";
 function App() {
   return (
     <Router>
+      <div>
       <Header className='Header'></Header>
 
       <div className="MainContainer">
@@ -17,6 +18,7 @@ function App() {
         <Route path="/blog" component={BlogListScreen} exact />
         <Route path="/contact" component={ContactScreen} exact />
         <Route path="/projects" component={PortFolioListScreen} exact />
+      </div>
       </div>
     </Router>
   );

@@ -24,11 +24,22 @@ const Header = () => {
       AboutContainer.scrollIntoView({ behavior: "smooth" });
     }
   };
+
+  const openHamburgerHandler = () => {
+    console.log("Hello");
+  };
   return (
     <div className="Header">
-      <button className="Hamburger_menu">
-        
-      </button>
+      <div
+        onClick={() => {
+          openHamburgerHandler();
+        }}
+        className="Hamburger__menu"
+      >
+        <div className="Hamburger__Menu__Line"></div>
+        <div className="Hamburger__Menu__Line"></div>
+        <div className="Hamburger__Menu__Line"></div>
+      </div>
       <ul>
         <a className="active" href="/">
           Welcome

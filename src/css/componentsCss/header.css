@@ -10,6 +10,15 @@
 }
 
 @media (max-width: 600px) {
+  .Header {
+    margin-right: 0px;
+    margin-top: 29px;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky;
+    position: sticky;
+  }
 }
 
 .Header ul a {
@@ -24,7 +33,8 @@
 }
 
 @media (max-width: 600px) {
-  .Header ul a, .Header__IconContainer {
+  .Header ul a,
+  .Header__IconContainer {
     display: none;
   }
 }
@@ -57,4 +67,22 @@
   width: 41px;
   height: 41px;
   margin: 12px;
+}
+
+.Hamburger__menu {
+
+  cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  .Hamburger__menu {
+    display: none;
+  }
+}
+
+.Hamburger__Menu__Line {
+  width: 49px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
