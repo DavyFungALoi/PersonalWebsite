@@ -127,7 +127,7 @@ const HomeScreen = () => {
         </div>
       </div>
       <div className="About__Me__Container">
-        <h2>Who am I?</h2>
+        <h2 className="About__Me__Container__Header">Who am I?</h2>
         <div className="About__Me__Container__Info">
           <div className="About__Me__Container__Info__Text">
             <div className="About__Me__Container__Info__Text__Paragraph">
