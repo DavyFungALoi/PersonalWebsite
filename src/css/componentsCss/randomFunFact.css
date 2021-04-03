@@ -17,7 +17,6 @@
   width: 493px;
   height: 74px;
   cursor: pointer;
-
   border-radius: 4px;
 }
 
@@ -33,4 +32,32 @@
   padding-top: 25px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .RandomFunFact__Container {
+    width: 375x;
+  }
+  .RandomFunFact__Container__Button {
+    font-family: Overpass;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 67px;
+    padding: 21x 27px 21px 26px;
+    width: 375px;
+    margin-right: 24px;
+  }
+  .RandomFunFact__Container__Text {
+    font-size: 16px;
+    margin-top: 18px;
+    text-align: center;
+    border: 3px dashed #000000;
+    width: 372px;
+    height: 110px;
+    margin-left: 2px;
+  }
 }
