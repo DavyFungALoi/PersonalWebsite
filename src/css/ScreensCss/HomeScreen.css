@@ -335,13 +335,3 @@
     height: 381px;
   }
 }
-
-.HomeScreen_Component {
-  margin-bottom: 15px;
-  padding: 50px;
-}
-
-@media (max-width: 600px) {
-  .TimeLine__Component {
-  }
-}

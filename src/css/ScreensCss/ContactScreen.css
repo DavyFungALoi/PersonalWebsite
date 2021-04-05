@@ -14,3 +14,15 @@
   border: none;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .Contact__Screen__Container{
+    margin-top: 20px;
+  }
+  .Contact_Screen_Button{
+    margin: auto;
+    margin-left: 80px;
+    font-size: 1.125rem;
+  }
+}
+

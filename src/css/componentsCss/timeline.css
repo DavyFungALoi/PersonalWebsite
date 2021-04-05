@@ -60,6 +60,7 @@
     position: relative;
     max-width: 600px;
     margin-left: 21px;
+    font-size: 18px;
   }
 
   .TimeLine__Container__Step {
