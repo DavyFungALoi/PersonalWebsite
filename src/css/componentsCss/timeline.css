@@ -6,7 +6,7 @@
 .Timeline__Container {
   display: flex;
   justify-content: space-between;
-  border-top: 7px solid #62f8d4;
+  border-top: 7px solid hsl(166, 91%, 68%);
   position: relative;
   max-width: 3000px;
 }
@@ -15,7 +15,6 @@
   font-size: 1rem;
   width: 100px;
   height: 75px;
-
 }
 
 .TimeLine__Container__Step {
@@ -24,7 +23,6 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  
 }
 
 .TimeLine__Container__Step::before {
@@ -39,4 +37,53 @@
   top: -20px;
   border-radius: 50%;
   z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .TimeLine__Header {
+    font-family: Chakra Petch;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 36px;
+    height: 47px;
+    width: 208px;
+  }
+  .Timeline__Container {
+    display: block;
+    justify-content: space-between;
+    border-left: 7px solid hsl(166, 91%, 68%);
+    border-top-style: none;
+    position: relative;
+    max-width: 600px;
+    margin-left: 21px;
+  }
+
+  .TimeLine__Container__Step {
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .TimeLine__Container__Step h3 {
+    margin-left: 10px;
+  }
+  .TimeLine__Container__Step__Time {
+    border-left: solid black;
+    width: 100px;
+    height: 75px;
+    padding-top: 13px;
+    margin-left: 5px;
+  }
+
+  .TimeLine__Container__Step::before {
+    position: relative;
+    margin-left: -17px;
+
+    top: 0px;
+  }
 }

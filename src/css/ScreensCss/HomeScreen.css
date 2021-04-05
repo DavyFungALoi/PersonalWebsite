@@ -328,7 +328,6 @@
   .About__Me__Container__Info__Text {
     width: 300px;
     margin-right: 0px;
-  
   }
 
   .Profile__Pic {
@@ -340,4 +339,9 @@
 .HomeScreen_Component {
   margin-bottom: 15px;
   padding: 50px;
+}
+
+@media (max-width: 600px) {
+  .TimeLine__Component {
+  }
 }
