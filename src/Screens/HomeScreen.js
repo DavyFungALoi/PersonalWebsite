@@ -181,7 +181,7 @@ const HomeScreen = () => {
       </div>
       <RandomFunFact></RandomFunFact>
 
-      <TimeLine></TimeLine>
+      <TimeLine className="TimeLine__Component"></TimeLine>
       <div className="HomeScreen_Component">
         <ContactComponent></ContactComponent>
       </div>
