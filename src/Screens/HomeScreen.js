@@ -2,7 +2,6 @@ import React from "react";
 import GitHubIcon from "../Images/GitHubIcon.png";
 import LinkedinIcon from "../Images/LinkedinIcon.png";
 import MouseWheelIconDownwards from "../Images/MouseWheelIconDownwards.png";
-import Expertise from "../Images/Expertise.png";
 import ProfilePic from "../Images/ProfilePicture.jpg";
 import Project from "../Components/Project";
 import TechStack from "../Components/TechStack";
@@ -34,8 +33,9 @@ const HomeScreen = () => {
           fun facts.
         </div>
         <div className="Introduction__Container__Button__Container">
-          <button onClick={() => projectJumpHandler()}>My Projects ></button>
-
+          <a href="projects">
+            <button>My Projects></button>
+          </a>
           <a href="contact">
             <button>Contact Me ></button>
           </a>
@@ -106,25 +106,26 @@ const HomeScreen = () => {
         <h2 className="Project__Container__Header">Projects</h2>
         <div className="Projects_Container">
           {Projects.map((project) => (
-            <div key={project.name}>
-              <Project
-                key={project.id}
-                name={project.name}
-                description={project.description}
-                id={project.id}
-                img={project.img}
-                stack={project.stack}
-                concepts={project.concepts}
-                link={project.link}
-              ></Project>
-            </div>
+            <Project
+              key={project.id}
+              name={project.name}
+              description={project.description}
+              id={project.id}
+              img={project.img}
+              stack={project.stack}
+              concepts={project.concepts}
+              link={project.link}
+            ></Project>
           ))}
         </div>
-        <div className="ProjectOverview__Container__GithubCTA">
-          <a href="https://github.com/DavyFungALoi">
-            <button>See all projects on Github ></button>
-          </a>
-        </div>
+      </div>
+      <div className="ProjectOverview__Container__GithubCTA">
+        <a href="https://github.com/DavyFungALoi">
+          <button>See More Projects ></button>
+        </a>
+        <a href="https://github.com/DavyFungALoi">
+          <button>Or see all projects on Github ></button>
+        </a>
       </div>
       <div className="About__Me__Container">
         <h2 className="About__Me__Container__Header">Who am I?</h2>

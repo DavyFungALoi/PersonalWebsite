@@ -235,22 +235,50 @@
 }
 
 .ProjectOverview__Container__GithubCTA {
-  text-align: center;
   margin-top: 50px;
+  text-align: center;
 }
 
 .ProjectOverview__Container__GithubCTA button {
   background: #62f8d4;
   color: white;
   font-weight: 600;
-  font-size: 22px;
-  margin: auto;
+  font-size: 18px;
   padding: 6px 22px;
   border: none;
   cursor: pointer;
+  margin: 10px;
 }
 
+.ProjectOverview__Container-DotNav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.ProjectOverview__Container_indicator {
+  border: 0;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.ProjectOverview__Container_indicator.current-project-slide {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width: 600px) {
+  .ProjectOverview__Container-DotNav {
+    display: none;
+  }
+}
 @media (max-width: 600px) {
+  .ProjectOverview__Container {
+    overflow: hidden;
+  }
   .Project__Container__Header {
     font-family: Chakra Petch;
     font-size: 36px;
@@ -263,6 +291,15 @@
     margin-left: 36px;
     height: 47px;
     width: 208px;
+  }
+  .Projects_Container {
+    display: flex;
+    text-align: left;
+    justify-content: normal;
+    width: 100vw;
+  }
+  .ProjectOverview__Container__GithubCTA{
+    margin-top: 20px;
   }
 }
 

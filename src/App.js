@@ -5,20 +5,20 @@ import Header from "./Components/Header";
 import HomeScreen from "./Screens/HomeScreen";
 import BlogListScreen from "./Screens/BlogListScreen";
 import { ContactScreen } from "./Screens/ContactScreen";
-import PortFolioListScreen from "./Screens/PortFolioListScreen";
+import ProjectsListScreen from "./Screens/ProjectsListScreen";
 
 function App() {
   return (
     <Router>
       <div>
-      <Header className='Header'></Header>
+        <Header className="Header"></Header>
 
-      <div className="MainContainer">
-        <Route path="/" component={HomeScreen} exact />
-        <Route path="/blog" component={BlogListScreen} exact />
-        <Route path="/contact" component={ContactScreen} exact />
-        <Route path="/projects" component={PortFolioListScreen} exact />
-      </div>
+        <div className="MainContainer">
+          <Route path="/" component={HomeScreen} exact />
+          <Route path="/blog" component={BlogListScreen} exact />
+          <Route path="/contact" component={ContactScreen} exact />
+          <Route path="/projects" component={ProjectsListScreen} exact />
+        </div>
       </div>
     </Router>
   );
