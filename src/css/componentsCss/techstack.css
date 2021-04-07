@@ -40,6 +40,9 @@
     justify-content: space-evenly;
     text-align: unset;
   }
+  .TechStack__Container__Stack:last-child {
+    margin-left: 115px;
+  }
   .TechStack__Container__Stack__Name {
     font-size: 1.125rem;
     font-family: Chakra Petch;
