@@ -235,7 +235,8 @@
 }
 
 .ProjectOverview__Container__GithubCTA {
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   text-align: center;
 }
 
@@ -298,7 +299,7 @@
     justify-content: normal;
     width: 100vw;
   }
-  .ProjectOverview__Container__GithubCTA{
+  .ProjectOverview__Container__GithubCTA {
     margin-top: 20px;
   }
 }
