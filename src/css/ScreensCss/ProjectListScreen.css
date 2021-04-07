@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+  .ProjectOverview__Container.ListScreen {
+    margin-top: 10px;
+  }
+  .Project__Container__Header.ListScreen {
+    margin-top: 0px;
+  }
+  .Projects_Container.ListScreen {
+    flex-direction: column;
+    display: flex;
+    overflow: visible;
+  }
+
+  .Project__Card__Container {
+    width: 350px;
+  }
+
+  .ProjectOverview__Container.ListScreen
+    > div
+    > div.Project__Card__Container.slide-2 {
+    display: flex;
+  }
+  .ProjectOverview__Container.ListScreen
+    > div
+    > div.Project__Card__Container.slide-3 {
+    display: flex;
+  }
+}

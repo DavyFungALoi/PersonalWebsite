@@ -52,6 +52,8 @@
     margin-right: 15px;
     height: 90vh;
     font-family: Chakra Petch;
+    z-index: 5
+    ;
   }
 
   .Header.HamburgerOverlay .Header__Menu {

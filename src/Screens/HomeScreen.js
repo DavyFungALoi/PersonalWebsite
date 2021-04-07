@@ -120,7 +120,7 @@ const HomeScreen = () => {
         </div>
       </div>
       <div className="ProjectOverview__Container__GithubCTA">
-        <a href="https://github.com/DavyFungALoi">
+        <a href="/projects">
           <button>See More Projects ></button>
         </a>
         <a href="https://github.com/DavyFungALoi">

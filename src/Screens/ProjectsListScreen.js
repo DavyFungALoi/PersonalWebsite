@@ -5,9 +5,9 @@ import Projects from "../data.js";
 const ProjectsListScreen = () => {
   return (
     <div>
-      <div className="ProjectOverview__Container">
-        <h2 className="Project__Container__Header">Projects</h2>
-        <div className="Projects_Container">
+      <div className="ProjectOverview__Container ListScreen">
+        <h2 className="Project__Container__Header ListScreen">Projects</h2>
+        <div className="Projects_Container ListScreen">
           {Projects.map((project) => (
             <Project
               key={project.id}
@@ -18,13 +18,14 @@ const ProjectsListScreen = () => {
               stack={project.stack}
               concepts={project.concepts}
               link={project.link}
+              screenClass={"ProjectScreen"}
             ></Project>
           ))}
         </div>
       </div>
       <div className="ProjectOverview__Container__GithubCTA projectScreen">
         <a href="https://github.com/DavyFungALoi">
-          <button>See More Projects ></button>
+          <button>See all projects on Github ></button>
         </a>
         <a href="/">
           <button>Go back to Home></button>

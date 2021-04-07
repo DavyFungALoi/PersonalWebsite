@@ -7,11 +7,15 @@ const Header = () => {
   let history = useHistory();
 
   const AboutJumpHandler = () => {
-    const AboutContainer = document.querySelector(".About__Me__Container");
+    const AboutContainer = document.querySelector(".About__Me__Container__Header");
+    // About__Me__Container__Header
+    ///About__Me__Container
+    const list = document.querySelector(".Header");
     if (!AboutContainer) {
       history.push("/");
     } else {
       AboutContainer.scrollIntoView({ behavior: "smooth" });
+      list.classList.toggle("HamburgerOverlay");
     }
   };
 
