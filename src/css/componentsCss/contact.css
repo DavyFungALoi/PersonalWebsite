@@ -1,3 +1,7 @@
+.Contact__Container {
+  margin-bottom: 10px;
+
+}
 .Contact__Container img {
   width: 55px;
   height: 55px;
@@ -13,18 +17,19 @@
   color: black;
 }
 
+
 .Contact__Container__Main {
   border: 3px dashed #62f8d4;
   display: grid;
   width: 700px;
   grid-template-columns: repeat(2, 350px);
   padding: 15px;
+  margin-top: 10px;
 }
 
 .Contact__Container__Element {
   display: flex;
   align-items: center;
-  padding: 15px;
 }
 
 .Container__Element_Description {

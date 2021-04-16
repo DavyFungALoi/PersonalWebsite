@@ -1,6 +1,8 @@
 import BarbershopPic from "../src/Images/Projects/BarberShop.png";
 import PassPortPic from "../src/Images/Projects/Passport.png";
 import PersonalWebsitePic from "../src/Images//Projects/PersonalWebsite.png";
+//import WooCommerceLandingPagePic from "../src/Images/Projects/WooCommerceLandingPage.png"\
+import WooCommerceLandingPagePic from "../src/Images/Projects/woocommercelandingpage2.png"
 import ExpressIcon from "../src/Images/TechStack/Express-Icon.png";
 import MongoDBIcon from "../src/Images/TechStack/MongoDB-Icon.jpg";
 import ReduxIcon from "../src/Images/TechStack/Redux-Icon.png";
@@ -10,6 +12,7 @@ import HTMLIcon from "../src/Images/TechStack/HTML-Icon.png";
 import CSSIcon from "../src/Images/TechStack/CSS-Icon.png";
 import JavascriptIcon from "../src/Images/TechStack/JavaScript-Icon.png";
 import EJSIcon from "../src/Images/TechStack/EJS-Icon.png";
+import SCSSIcon from "../src/Images/TechStack/sass-1.svg"
 
 const Projects = [
   {
@@ -31,6 +34,16 @@ const Projects = [
     link: "https://github.com/DavyFungALoi/PersonalWebsite",
     id: 2,
   },
+  {
+    name: "WooCommerce Landing Page",
+    description:
+      "A landing page created based off a Figma design",
+    stack: [HTMLIcon, CSSIcon, SCSSIcon],
+    img: WooCommerceLandingPagePic,
+    concepts: "SCSS, Figma",
+    link: "https://github.com/DavyFungALoi/woocommercepage",
+    id: 3,
+  },
 
   {
     name: "Members Only",
@@ -40,7 +53,7 @@ const Projects = [
     img: PassPortPic,
     concepts: "Encryption, Data validation, CRUD, MVC, EJS",
     link: "https://github.com/DavyFungALoi/members-only",
-    id: 3,
+    id: 4,
   },
 ];
 
