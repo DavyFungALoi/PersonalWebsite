@@ -1,10 +1,10 @@
 import React from "react";
 
 const Project = (props) => {
-  const { name, img, description, stack, concepts, link, id } = props;
+  const { name, img, description, stack, concepts, link, id, className } = props;
 
   return (
-    <div className={`Project__Card__Container slide-${id}`}>
+    <div className={`Project__Card__Container slide ${className} `}>
       <h3>{name}</h3>
       <img className="Project_Screenshot" src={img} alt="Expertise"></img>
       <div className="Project__Card__Container__Description">{description}</div>
@@ -30,3 +30,4 @@ const Project = (props) => {
 export default Project;
 
 ///div className="Project__Card__Container"
+///${id}

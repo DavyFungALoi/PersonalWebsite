@@ -115,6 +115,7 @@ const HomeScreen = () => {
               stack={project.stack}
               concepts={project.concepts}
               link={project.link}
+              className="HomeScreen"
             ></Project>
           ))}
         </div>

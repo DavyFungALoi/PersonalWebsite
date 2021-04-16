@@ -18,7 +18,7 @@ const ProjectsListScreen = () => {
               stack={project.stack}
               concepts={project.concepts}
               link={project.link}
-              screenClass={"ProjectScreen"}
+              className={"ProjectScreen"}
             ></Project>
           ))}
         </div>

@@ -51,13 +51,8 @@
   .Project__Card__Container {
     width: 812px;
   }
-  .Project__Card__Container.slide-1 {
-  }
 
-  .Project__Card__Container.slide-2 {
-    display: none;
-  }
-  .Project__Card__Container.slide-3 {
+  .HomeScreen:not(:first-child) {
     display: none;
   }
 }
