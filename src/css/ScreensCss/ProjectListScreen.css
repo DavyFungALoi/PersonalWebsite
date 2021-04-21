@@ -1,3 +1,10 @@
+.Projects_Container.ListScreen {
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  overflow: visible;
+}
+
 @media (max-width: 600px) {
   .ProjectOverview__Container.ListScreen {
     margin-top: 10px;
@@ -8,6 +15,7 @@
   .Projects_Container.ListScreen {
     flex-direction: column;
     display: flex;
+
     overflow: visible;
   }
 

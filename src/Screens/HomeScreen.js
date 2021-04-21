@@ -22,6 +22,7 @@ const HomeScreen = () => {
     );
     Projectcontainer.scrollIntoView({ behavior: "smooth" });
   };
+  const ProjectDataHomePage = Projects.slice(0, 4);
   return (
     <>
       <div className="Introduction__Container">
@@ -105,7 +106,7 @@ const HomeScreen = () => {
       <div className="ProjectOverview__Container">
         <h2 className="Project__Container__Header">Projects</h2>
         <div className="Projects_Container">
-          {Projects.map((project) => (
+          {ProjectDataHomePage.map((project) => (
             <Project
               key={project.id}
               name={project.name}

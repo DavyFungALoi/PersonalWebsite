@@ -1,8 +1,8 @@
 import BarbershopPic from "../src/Images/Projects/BarberShop.png";
 import PassPortPic from "../src/Images/Projects/Passport.png";
 import PersonalWebsitePic from "../src/Images//Projects/PersonalWebsite.png";
-//import WooCommerceLandingPagePic from "../src/Images/Projects/WooCommerceLandingPage.png"\
-import WooCommerceLandingPagePic from "../src/Images/Projects/woocommercelandingpage2.png"
+import WooCommerceLandingPagePic from "../src/Images/Projects/woocommercelandingpage2.png";
+import CoffeeSubscriptionPic from "../src/Images/Projects/coffeewebsite.png";
 import ExpressIcon from "../src/Images/TechStack/Express-Icon.png";
 import MongoDBIcon from "../src/Images/TechStack/MongoDB-Icon.jpg";
 import ReduxIcon from "../src/Images/TechStack/Redux-Icon.png";
@@ -12,7 +12,7 @@ import HTMLIcon from "../src/Images/TechStack/HTML-Icon.png";
 import CSSIcon from "../src/Images/TechStack/CSS-Icon.png";
 import JavascriptIcon from "../src/Images/TechStack/JavaScript-Icon.png";
 import EJSIcon from "../src/Images/TechStack/EJS-Icon.png";
-import SCSSIcon from "../src/Images/TechStack/sass-1.svg"
+import SCSSIcon from "../src/Images/TechStack/sass-1.svg";
 
 const Projects = [
   {
@@ -36,13 +36,22 @@ const Projects = [
   },
   {
     name: "WooCommerce Landing Page",
-    description:
-      "A landing page created based off a Figma design",
+    description: "A landing page created based off a Figma design",
     stack: [HTMLIcon, CSSIcon, SCSSIcon],
     img: WooCommerceLandingPagePic,
     concepts: "SCSS, Figma",
     link: "https://github.com/DavyFungALoi/woocommercepage",
     id: 3,
+  },
+  {
+    name: "Coffee Subscription",
+    description:
+      "three-page mobile & desktop front-end app for coffee subscription",
+    stack: [ReactIcon, SCSSIcon, HTMLIcon],
+    img: CoffeeSubscriptionPic,
+    concepts: "Mobile & Desktop version, multiple options for a product",
+    link: "https://github.com/DavyFungALoi/coffee-subscription",
+    id: 4,
   },
 
   {
@@ -53,7 +62,7 @@ const Projects = [
     img: PassPortPic,
     concepts: "Encryption, Data validation, CRUD, MVC, EJS",
     link: "https://github.com/DavyFungALoi/members-only",
-    id: 4,
+    id: 5,
   },
 ];
 
