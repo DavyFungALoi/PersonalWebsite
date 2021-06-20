@@ -26,8 +26,8 @@ const TimeLine = () => {
           <div className="TimeLine__Container__Step__Time">2021 March</div>
         </div>
         <div className="TimeLine__Container__Step">
-          <h3>Looking for my first dev job</h3>
-          <div className="TimeLine__Container__Step__Time">Now</div>
+          <h3>Software Engineer at Cow Hills</h3>
+          <div className="TimeLine__Container__Step__Time">Present</div>
         </div>
       </div>
     </div>
